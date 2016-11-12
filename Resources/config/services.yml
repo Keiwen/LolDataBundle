@@ -1,0 +1,33 @@
+
+parameters:
+    keiwen_loldata.class.wikiachampions: Keiwen\LolDataBundle\Service\WikiaChampions
+    keiwen_loldata.class.lolkingchampions: Keiwen\LolDataBundle\Service\LolkingChampions
+    keiwen_loldata.class.opggProfile: Keiwen\LolDataBundle\Service\OpggProfile
+
+services:
+
+    keiwen_loldata.external.wikiachampions:
+        class: '%keiwen_loldata.class.wikiachampions%'
+        arguments:
+            - '@service_container'
+            - '@?keiwen_loldata.cache'
+            - '%keiwen_loldata.wikia.cache_lifetime%'
+            - '%keiwen_loldata.wikia.cache_prefix%'
+
+    keiwen_loldata.external.lolkingchampions:
+        class: '%keiwen_loldata.class.lolkingchampions%'
+        arguments:
+            - '@service_container'
+            - '@?keiwen_loldata.cache'
+            - '%keiwen_loldata.lolking.cache_lifetime%'
+            - '%keiwen_loldata.lolking.cache_prefix%'
+
+    keiwen_loldata.external.opggprofile:
+        class: '%keiwen_loldata.class.opggProfile%'
+        arguments:
+            - '@service_container'
+            - '@?keiwen_loldata.cache'
+            - '%keiwen_loldata.opgg.cache_lifetime%'
+            - '%keiwen_loldata.opgg.cache_prefix%'
+
+
