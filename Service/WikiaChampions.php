@@ -69,6 +69,11 @@ class WikiaChampions extends AbstractExternalDataService
                 $row['date'] = date('Y-m-d', $timeReleased);
                 $releaseList[] = date('Y-m', $timeReleased);
             }
+            //remove trailing dot for difficulty
+            if(isset($row['diff.'])) {
+                $row['diff'] = $row['diff.'];
+                unset($row['diff.']);
+            }
         }
         $this->sanitizeList($ipList);
         $this->sanitizeList($rpList);
