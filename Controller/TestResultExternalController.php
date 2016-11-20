@@ -5,34 +5,35 @@ namespace Keiwen\LolDataBundle\Controller;
 
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
 
-class TestExternalController extends Controller
+class TestResultExternalController extends Controller
 {
 
 
     /**
-     * @Route("/wikia/champions", name="wikiaChampionsTest")
+     * @Route("/wikia/champions", name="wikiaChampionsResult")
      */
     public function wikiaChampionsAction()
     {
         $service = $this->get('keiwen_loldata.external.wikiachampions');
-        dump($service->getUrl());
-        return $service->testQuery();
+        $content = $service->getContent();
+        return new JsonResponse($content);
     }
 
     /**
-     * @Route("/lolking/champions", name="lolkingChampionsTest")
+     * @Route("/lolking/champions", name="lolkingChampionsResult")
      */
     public function lolkingChampionsAction()
     {
         $service = $this->get('keiwen_loldata.external.lolkingchampions');
-        dump($service->getUrl());
-        return $service->testQuery();
+        $content = $service->getContent();
+        return new JsonResponse($content);
     }
 
     /**
-     * @Route("/opgg/profile", name="opggProfileTest")
+     * @Route("/opgg/profile", name="opggProfileResult")
      */
     public function opggProfileAction(Request $request)
     {
@@ -42,28 +43,31 @@ class TestExternalController extends Controller
         if($summonerName == null) $summonerName = 'tryndamere';
         $service = $this->get('keiwen_loldata.external.opggprofile');
         $service->setServer($server)->setSummonerName($summonerName);
-        dump($service->getUrl());
-        return $service->testQuery();
+        $content = $service->getContent();
+        return new JsonResponse($content);
     }
 
     /**
-     * @Route("/championgg/champions", name="championggChampionsTest")
+     * @Route("/championgg/champions", name="championggChampionsResult")
      */
     public function championggChampionsAction()
     {
         $service = $this->get('keiwen_loldata.external.championggchampions');
-        dump($service->getUrl());
-        return $service->testQuery();
+        $content = $service->getContent();
+        return new JsonResponse($content);
     }
 
+
+
     /**
-     * @Route("/riot/apiVersions", name="riotApiVersionsTest")
+     * @Route("/riot/apiVersions", name="riotApiVersionsResult")
      */
     public function riotApiAction()
     {
         $service = $this->get('keiwen_loldata.external.riotapiversions');
-        dump($service->getUrl());
-        return $service->testQuery();
+        $content = $service->getContent();
+        return new JsonResponse($content);
     }
+
 
 }

@@ -12,9 +12,13 @@ class KeiwenLolDataExtension extends ConfigurableExtension
 {
 
     const LOLKING_USESTATRANGE = 'keiwen_loldata.lolking.use_stat_range';
+    const CHAMPIONGG_USESTATRANGE = 'keiwen_loldata.championgg.use_stat_range';
+
     const LOLKING_URL_CHAMPION = 'keiwen_loldata.lolking.url_champion';
     const WIKIA_URL_CHAMPION = 'keiwen_loldata.wikia.url_champion';
     const OPGG_URL_PROFILE = 'keiwen_loldata.opgg.url_profile';
+    const CHAMPIONGG_URL_CHAMPION = 'keiwen_loldata.championgg.url_champion';
+    const RIOT_URL_APIVERSIONS = 'keiwen_loldata.riot.url_apiversions';
 
     public function loadInternal(array $mergedConfig, ContainerBuilder $container)
     {
@@ -24,14 +28,23 @@ class KeiwenLolDataExtension extends ConfigurableExtension
             new FileLocator(__DIR__.'/../Resources/config')
         );
 
+        $container->setParameter('keiwen_loldata.cache_lifetime', $mergedConfig['cache_lifetime']);
+        $container->setParameter('keiwen_loldata.cache_prefix', $mergedConfig['cache_prefix']);
+
         $container->setParameter(self::LOLKING_USESTATRANGE, $mergedConfig['lolking']['use_stat_range']);
+        $container->setParameter(self::CHAMPIONGG_USESTATRANGE, $mergedConfig['championgg']['use_stat_range']);
+
         $container->setParameter(self::LOLKING_URL_CHAMPION, $mergedConfig['lolking']['url_champion']);
         $container->setParameter(self::WIKIA_URL_CHAMPION, $mergedConfig['wikia']['url_champion']);
         $container->setParameter(self::OPGG_URL_PROFILE, $mergedConfig['opgg']['url_profile']);
+        $container->setParameter(self::CHAMPIONGG_URL_CHAMPION, $mergedConfig['championgg']['url_champion']);
+        $container->setParameter(self::RIOT_URL_APIVERSIONS, $mergedConfig['riot']['url_apiversions']);
 
         $this->setCacheParameters($mergedConfig, $container, 'lolking');
         $this->setCacheParameters($mergedConfig, $container, 'wikia');
         $this->setCacheParameters($mergedConfig, $container, 'opgg');
+        $this->setCacheParameters($mergedConfig, $container, 'championgg');
+        $this->setCacheParameters($mergedConfig, $container, 'riot');
 
         $loader->load('services.yml');
     }

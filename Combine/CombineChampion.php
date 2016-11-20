@@ -3,17 +3,20 @@
 namespace Keiwen\LolDataBundle\Combine;
 
 
+use Keiwen\LolDataBundle\Model\CombinedChampion;
+use Keiwen\RiotApi\Api\RiotApi;
 use Keiwen\Utils\Mutator\ArrayMutator;
 use Keiwen\Utils\Object\CacheHandlerTrait;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 
-class ChampionCombine extends AbstractCombine
+class CombineChampion extends AbstractCombine
 {
     use CacheHandlerTrait;
 
     protected $switchRegional = true;
     protected $switchWikia = true;
     protected $switchLolking = true;
+    protected $switchChampiongg = true;
 
     public function __construct(ContainerInterface $container, $cache = null, int $defaultCacheLifetime = 0, string $cacheKeyPrefix = '')
     {
@@ -26,6 +29,7 @@ class ChampionCombine extends AbstractCombine
         $conf[] = 'rar' . $this->switchRegional;
         $conf[] = 'wik' . $this->switchWikia;
         $conf[] = 'lkg' . $this->switchLolking;
+        $conf[] = 'cgg' . $this->switchChampiongg;
         return implode('', $conf);
     }
 
@@ -45,11 +49,16 @@ class ChampionCombine extends AbstractCombine
         $this->switchLolking = $switch;
     }
 
+    public function switchChampionggData(bool $switch)
+    {
+        $this->switchChampiongg = $switch;
+    }
+
 
     /**
      * @param string $locale
      * @param string $version
-     * @return array|\Keiwen\RiotApi\Dto\Champion\ChampionDto[]|\stdClass|string
+     * @return array|\Keiwen\RiotApi\Dto\Champion\ChampionDto[]|\stdClass|string|CombinedChampion[]
      */
     public function getChampions(string $locale = '', string $version = '')
     {
@@ -57,12 +66,16 @@ class ChampionCombine extends AbstractCombine
         if($champions !== null) return $champions;
         $champions = $this->getChampionsGlobal($locale, $version);
         $refChampions = $this->retrieveOutputFieldList($champions, 'name');
+        //if dto received, build the combined dto
+        if(RiotApi::detectOutputFormat($champions) == RiotApi::FORMAT_DTO) {
+            foreach($champions as &$championDto) {
+                $championDto = CombinedChampion::generateFromParent($championDto);
+            }
+        }
 
         //optionnal data
         if($this->switchRegional) {
             $regional = $this->getChampionsRegional();
-            //todo new DTO class
-            //todo set service and test
             $champions = $this->combineContentList($champions, $regional, 'id', 'regional');
         }
         if($this->switchWikia) {
@@ -74,6 +87,11 @@ class ChampionCombine extends AbstractCombine
             $lolking = $this->getChampionsLolking();
             $lolking = ArrayMutator::convertKeysWithRefMap($lolking, 'champion', $refChampions);
             $champions = $this->combineContentList($champions, $lolking, '', 'lolking');
+        }
+        if($this->switchChampiongg) {
+            $championgg = $this->getChampionsChampiongg();
+            $championgg = ArrayMutator::convertKeysWithRefMap($championgg, 'champion', $refChampions);
+            $champions = $this->combineContentList($champions, $championgg, '', 'championgg');
         }
 
         $this->storeInCache('champions', $champions);
@@ -121,6 +139,17 @@ class ChampionCombine extends AbstractCombine
     protected function getChampionsLolking()
     {
         $service = $this->container->get('keiwen_loldata.external.lolkingchampions');
+        $content = $service->getContent();
+        //extract list of champions in 'champions' field
+        return $this->retrieveOutputField($content, 'champions');
+    }
+
+    /**
+     * @return array
+     */
+    protected function getChampionsChampiongg()
+    {
+        $service = $this->container->get('keiwen_loldata.external.championggchampions');
         $content = $service->getContent();
         //extract list of champions in 'champions' field
         return $this->retrieveOutputField($content, 'champions');

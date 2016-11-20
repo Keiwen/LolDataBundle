@@ -1,0 +1,10 @@
+keiwen_loldata_test:
+    resource: '@KeiwenLolDataBundle/Controller/TestExternalController.php'
+    prefix: '_testExternal'
+    type: annotation
+
+
+keiwen_loldata_result:
+    resource: '@KeiwenLolDataBundle/Controller/TestResultExternalController.php'
+    prefix: '_testResultExternal'
+    type: annotation

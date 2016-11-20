@@ -2,7 +2,12 @@
 parameters:
     keiwen_loldata.class.wikiachampions: Keiwen\LolDataBundle\Service\WikiaChampions
     keiwen_loldata.class.lolkingchampions: Keiwen\LolDataBundle\Service\LolkingChampions
-    keiwen_loldata.class.opggProfile: Keiwen\LolDataBundle\Service\OpggProfile
+    keiwen_loldata.class.championggchampions: Keiwen\LolDataBundle\Service\ChampionggChampions
+    keiwen_loldata.class.opggprofile: Keiwen\LolDataBundle\Service\OpggProfile
+    keiwen_loldata.class.riotapiversions: Keiwen\LolDataBundle\Service\RiotApiVersions
+
+    keiwen_loldata.class.combinechampion: Keiwen\LolDataBundle\Combine\CombineChampion
+    keiwen_loldata.class.combinesummoner: Keiwen\LolDataBundle\Combine\CombineSummoner
 
 services:
 
@@ -23,11 +28,45 @@ services:
             - '%keiwen_loldata.lolking.cache_prefix%'
 
     keiwen_loldata.external.opggprofile:
-        class: '%keiwen_loldata.class.opggProfile%'
+        class: '%keiwen_loldata.class.opggprofile%'
         arguments:
             - '@service_container'
             - '@?keiwen_loldata.cache'
             - '%keiwen_loldata.opgg.cache_lifetime%'
             - '%keiwen_loldata.opgg.cache_prefix%'
 
+    keiwen_loldata.external.riotapiversions:
+        class: '%keiwen_loldata.class.riotapiversions%'
+        arguments:
+            - '@service_container'
+            - '@?keiwen_loldata.cache'
+            - '%keiwen_loldata.riot.cache_lifetime%'
+            - '%keiwen_loldata.riot.cache_prefix%'
+
+    keiwen_loldata.external.championggchampions:
+        class: '%keiwen_loldata.class.championggchampions%'
+        arguments:
+            - '@service_container'
+            - '@?keiwen_loldata.cache'
+            - '%keiwen_loldata.championgg.cache_lifetime%'
+            - '%keiwen_loldata.championgg.cache_prefix%'
+
+
+
+    keiwen_loldata.combine.champion:
+        class: '%keiwen_loldata.class.combinechampion%'
+        arguments:
+            - '@service_container'
+            - '@?keiwen_loldata.cache'
+            - '%keiwen_loldata.cache_lifetime%'
+            - '%keiwen_loldata.cache_prefix%'
+
+
+    keiwen_loldata.combine.summoner:
+        class: '%keiwen_loldata.class.combinesummoner%'
+        arguments:
+            - '@service_container'
+            - '@?keiwen_loldata.cache'
+            - '%keiwen_loldata.cache_lifetime%'
+            - '%keiwen_loldata.cache_prefix%'
 

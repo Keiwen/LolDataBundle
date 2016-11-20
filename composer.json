@@ -1,5 +1,5 @@
 {
-  "name": "keiwen/loldata-bundle",
+  "name": "keiwen/loldatabundle",
   "type": "symfony-bundle",
   "description": "Symfony bundle for LoL data",
   "version": "1.0",
@@ -14,7 +14,7 @@
     "php": ">=7.0",
     "symfony/symfony": ">=3.0",
 
-    "keiwen/riotapi-bundle": ">=1.0"
+    "keiwen/riotapibundle": ">=1.0"
   }
 
 }

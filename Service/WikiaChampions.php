@@ -48,6 +48,9 @@ class WikiaChampions extends AbstractExternalDataService
         foreach($rows as &$row) {
             $row = HtmlParsing::parseTagList($row, 'td', true);
             $row = array_combine($rowTitle, $row);
+            foreach($row as &$col) {
+                $col = trim($col);
+            }
             //champion name
             if(empty($row['champion'])) {
                 $row['champion'] = '';
