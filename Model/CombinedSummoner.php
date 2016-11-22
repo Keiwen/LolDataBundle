@@ -37,6 +37,26 @@ class CombinedSummoner extends SummonerDto
         return $this->set('opgg', $opgg);
     }
 
+    
+    /**
+     *
+     * @return string
+     */
+    public function getServer()
+    {
+        return $this->get('server', '');
+    }
+
+
+    /**
+     * @param string $server
+     * @return static
+     */
+    public function setServer(string $server)
+    {
+        return $this->set('server', $server);
+    }
+
 
 
 }
