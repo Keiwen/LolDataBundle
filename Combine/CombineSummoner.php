@@ -51,6 +51,7 @@ class CombineSummoner extends AbstractCombine
         //if dto received, build the combined dto
         if(RiotApi::detectOutputFormat($summoner) == RiotApi::FORMAT_DTO) {
             $summoner = CombinedSummoner::generateFromParent($summoner);
+            $summoner->setServer($server);
         }
 
         //optionnal data
