@@ -18,7 +18,7 @@ class Configuration implements ConfigurationInterface
 
         $rootNode
             ->children()
-                ->integerNode('cache_lifetime')->defaultValue(0)->end()
+                ->integerNode('cache_lifetime')->defaultValue(300)->end()
                 ->scalarNode('cache_prefix')->defaultValue('')->end()
                 ->arrayNode('wikia')
                     ->addDefaultsIfNotSet()
