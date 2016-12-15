@@ -11,7 +11,6 @@ class LolChampion extends AbstractExternalDataService
 {
 
     protected $url = 'http://gameinfo.euw.leagueoflegends.com/en/game-info/champions';
-    protected $currentChampion = '';
 
     const FRIENDS_DIV_NUMBER = 1;
     const RIVALS_DIV_NUMBER = 2;
@@ -24,17 +23,30 @@ class LolChampion extends AbstractExternalDataService
 
     public function getUrl()
     {
-        return $this->url . '/' . strtolower($this->currentChampion);
+        $missingParamMsg = 'LolChampion DataService: required "%s" parameter is missing';
+        if(empty($this->urlParameters['champion'])) {
+            throw new ExternalDataServiceException(sprintf($missingParamMsg, 'champion'));
+        }
+        return $this->url . '/' . strtolower($this->urlParameters['champion']);
+    }
+
+    /**
+     * @param string $champion
+     * @return $this
+     */
+    public function setChampion(string $champion)
+    {
+        if(!empty($champion)) $this->urlParameters['champion'] = $champion;
+        return $this;
     }
 
 
     /**
      * @return mixed|null
      */
-    public function getContent(string $championKey)
+    public function getContent(string $championKey = '')
     {
-        if(empty($championKey)) return '';
-        $this->currentChampion = $championKey;
+        $this->setChampion($championKey);
         return parent::getContent();
     }
 
@@ -47,14 +59,14 @@ class LolChampion extends AbstractExternalDataService
         $friends = $this->getChampLinks($raw, static::FRIENDS_DIV_NUMBER);
         $rivals = $this->getChampLinks($raw, static::RIVALS_DIV_NUMBER);
 
-        $videoPassive = HtmlParsing::parseTag($content, 'video', false, 1);
+        $videoPassive = HtmlParsing::parseTag($raw, 'video', false, 1);
         $videos = array();
-        $videos['q'] = HtmlParsing::parseTag($content, 'video', false, 2);
-        $videos['w'] = HtmlParsing::parseTag($content, 'video', false, 3);
-        $videos['e'] = HtmlParsing::parseTag($content, 'video', false, 4);
-        $videos['r'] = HtmlParsing::parseTag($content, 'video', false, 5);
+        $videos['q'] = HtmlParsing::parseTag($raw, 'video', false, 2);
+        $videos['w'] = HtmlParsing::parseTag($raw, 'video', false, 3);
+        $videos['e'] = HtmlParsing::parseTag($raw, 'video', false, 4);
+        $videos['r'] = HtmlParsing::parseTag($raw, 'video', false, 5);
         return array(
-            'champKey' => $this->currentChampion,
+            'champKey' => $this->urlParameters['champion'],
             'affiliationId' => $affiliationId,
             'friends' => $friends,
             'rivals' => $rivals,
@@ -85,10 +97,9 @@ class LolChampion extends AbstractExternalDataService
      * @param string $championKey
      * @return bool
      */
-    public function isCached(string $championKey)
+    public function isCached(string $championKey = '')
     {
-        if(empty($championKey)) return true;
-        $this->currentChampion = $championKey;
+        $this->setChampion($championKey);
         $content = $this->readInCache($this->getServiceKey());
         return $content !== null;
     }
