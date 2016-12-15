@@ -69,5 +69,18 @@ class TestResultExternalController extends Controller
         return new JsonResponse($content);
     }
 
+    /**
+     * @Route("/lol/champion", name="lolChampionResult")
+     */
+    public function lolChampionAction(Request $request)
+    {
+        $champion = $request->get('champion');
+        if($champion == null) $champion = 'Teemo';
+        $service = $this->get('keiwen_loldata.external.lolchampion');
+        $service->setChampion($champion);
+        $content = $service->getContent();
+        return new JsonResponse($content);
+    }
+
 
 }
