@@ -14,6 +14,7 @@ class CombinedChampion extends ChampionDto
     protected static function includedJsonObjects()
     {
         $included = parent::includedJsonObjects();
+        $included['lol'] = LolChampion::class;
         $included['regional'] = ChampionInfoDto::class;
         $included['wikia'] = WikiaChampion::class;
         $included['lolking'] = LolkingChampion::class;
@@ -58,6 +59,26 @@ class CombinedChampion extends ChampionDto
     public function setWikia(WikiaChampion $wikia)
     {
         return $this->set('wikia', $wikia);
+    }
+
+
+    /**
+     *
+     * @return LolChampion
+     */
+    public function getLol()
+    {
+        return $this->get('lol', new LolChampion());
+    }
+
+
+    /**
+     * @param LolChampion $lol
+     * @return static
+     */
+    public function setLol(LolChampion $lol)
+    {
+        return $this->set('lol', $lol);
     }
 
 
