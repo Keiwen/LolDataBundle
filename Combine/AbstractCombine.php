@@ -77,11 +77,12 @@ abstract class AbstractCombine
      * @see combineContentList() used when ouput is array of DTO
      * @param array|DtoParent|\stdClass|string $parentContent
      * @param array|DtoParent|\stdClass|string $childContent
+     * @param string                           $fieldMap if array
      * @param string                           $insertInNewField empty to merge data
      * @param string                           $dtoClassOutput if dto expected, fully qualified class name here
      * @return mixed|string
      */
-    public function combineContent($original, $additional, string $insertInNewField = '', string $dtoClassOutput = '')
+    public function combineContent($original, $additional, string $fieldMap = '', string $insertInNewField = '', string $dtoClassOutput = '')
     {
 
         $originalData = $this->extractDataArray($original);
@@ -99,7 +100,7 @@ abstract class AbstractCombine
             case RiotApi::FORMAT_DTO:
                 if(is_array($original)) {
                     //redirect array of dto
-                    return $this->combineContentList($original, $additional, '', $insertInNewField, $dtoClassOutput);
+                    return $this->combineContentList($original, $additional, $fieldMap, $insertInNewField, $dtoClassOutput);
                 } else {
                     //try to generate from provided class
                     if(!empty($dtoClassOutput) && class_exists($dtoClassOutput) && is_subclass_of($dtoClassOutput, DtoParent::class)) {
