@@ -57,7 +57,7 @@ class CombineSummoner extends AbstractCombine
         //optionnal data
         if($this->switchOpgg) {
             $opgg = $this->getSummonerOpgg($name, $server);
-            $summoner = $this->combineContent($summoner, $opgg, 'opgg');
+            $summoner = $this->combineContent($summoner, $opgg, '', 'opgg');
         }
 
         $this->storeInCache($cacheKey, $summoner);
