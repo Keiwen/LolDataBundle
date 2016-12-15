@@ -1,6 +1,7 @@
 
 parameters:
     keiwen_loldata.class.wikiachampions: Keiwen\LolDataBundle\Service\WikiaChampions
+    keiwen_loldata.class.lolchampion: Keiwen\LolDataBundle\Service\LolChampion
     keiwen_loldata.class.lolkingchampions: Keiwen\LolDataBundle\Service\LolkingChampions
     keiwen_loldata.class.championggchampions: Keiwen\LolDataBundle\Service\ChampionggChampions
     keiwen_loldata.class.opggprofile: Keiwen\LolDataBundle\Service\OpggProfile
@@ -18,6 +19,14 @@ services:
             - '@?keiwen_loldata.cache'
             - '%keiwen_loldata.wikia.cache_lifetime%'
             - '%keiwen_loldata.wikia.cache_prefix%'
+
+    keiwen_loldata.external.lolchampion:
+        class: '%keiwen_loldata.class.lolchampion%'
+        arguments:
+            - '@service_container'
+            - '@?keiwen_loldata.cache'
+            - '%keiwen_loldata.lol.cache_lifetime%'
+            - '%keiwen_loldata.lol.cache_prefix%'
 
     keiwen_loldata.external.lolkingchampions:
         class: '%keiwen_loldata.class.lolkingchampions%'
