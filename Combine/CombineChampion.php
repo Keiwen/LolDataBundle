@@ -15,6 +15,7 @@ class CombineChampion extends AbstractCombine
 
     protected $switchRegional = true;
     protected $switchWikia = true;
+    protected $switchLol = true;
     protected $switchLolking = true;
     protected $switchChampiongg = true;
 
@@ -28,6 +29,7 @@ class CombineChampion extends AbstractCombine
         $conf = array();
         $conf[] = 'rar' . $this->switchRegional;
         $conf[] = 'wik' . $this->switchWikia;
+        $conf[] = 'lol' . $this->switchLol;
         $conf[] = 'lkg' . $this->switchLolking;
         $conf[] = 'cgg' . $this->switchChampiongg;
         return implode('', $conf);
@@ -47,6 +49,12 @@ class CombineChampion extends AbstractCombine
     public function switchLolkingData(bool $switch)
     {
         $this->switchLolking = $switch;
+    }
+
+
+    public function switchLolData(bool $switch)
+    {
+        $this->switchLol = $switch;
     }
 
     public function switchChampionggData(bool $switch)
@@ -76,22 +84,44 @@ class CombineChampion extends AbstractCombine
         //optionnal data
         if($this->switchRegional) {
             $regional = $this->getChampionsRegional();
-            $champions = $this->combineContentList($champions, $regional, 'id', 'regional');
+            $champions = $this->combineContent($champions, $regional, 'id', 'regional');
         }
         if($this->switchWikia) {
             $wikia = $this->getChampionsWikia();
             $wikia = ArrayMutator::convertKeysWithRefMap($wikia, 'champion', $refChampions);
-            $champions = $this->combineContentList($champions, $wikia, '', 'wikia');
+            $champions = $this->combineContent($champions, $wikia, '', 'wikia');
         }
         if($this->switchLolking) {
             $lolking = $this->getChampionsLolking();
             $lolking = ArrayMutator::convertKeysWithRefMap($lolking, 'champion', $refChampions);
-            $champions = $this->combineContentList($champions, $lolking, '', 'lolking');
+            $champions = $this->combineContent($champions, $lolking, '', 'lolking');
+        }
+        if($this->switchLol) {
+            $championsList = $champions;
+            switch(RiotApi::detectOutputFormat($champions)) {
+                case RiotApi::FORMAT_STDCLASS: $championsList = json_decode(json_encode($champions), true); break;
+                case RiotApi::FORMAT_JSON: $championsList = json_decode($champions, true); break;
+            }
+            $lol = array();
+            foreach($championsList as $championElmt) {
+                if(RiotApi::detectOutputFormat($champions) == RiotApi::FORMAT_DTO) {
+                    $champKey = $championElmt->getKey();
+                    $champName = $championElmt->getName();
+                } else {
+                    $champKey = $championElmt['key'];
+                    $champName = $championElmt['name'];
+                }
+                $lolChamp = $this->getChampionLol($champKey);
+                $lolChamp['champion'] = $champName;
+                $lol[] = $lolChamp;
+            }
+            $lol = ArrayMutator::convertKeysWithRefMap($lol, 'champion', $refChampions);
+            $champions = $this->combineContent($champions, $lol, '', 'lolking');
         }
         if($this->switchChampiongg) {
             $championgg = $this->getChampionsChampiongg();
             $championgg = ArrayMutator::convertKeysWithRefMap($championgg, 'champion', $refChampions);
-            $champions = $this->combineContentList($champions, $championgg, '', 'championgg');
+            $champions = $this->combineContent($champions, $championgg, '', 'championgg');
         }
 
         $this->storeInCache('champions', $champions);
@@ -142,6 +172,20 @@ class CombineChampion extends AbstractCombine
         $content = $service->getContent();
         //extract list of champions in 'champions' field
         return $this->retrieveOutputField($content, 'champions');
+    }
+    
+    /**
+     * @return array
+     */
+    protected function getChampionLol(string $champKey)
+    {
+        $service = $this->container->get('keiwen_loldata.external.lolchampion');
+        if(!$service->isCached($champKey)) {
+            return array();
+        }
+        $content = $service->getContent($champKey);
+        //extract list of champions in 'champions' field
+        return $content;
     }
 
     /**
