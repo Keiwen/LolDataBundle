@@ -66,4 +66,19 @@ class TestExternalController extends Controller
         return $service->testQuery();
     }
 
+
+    /**
+     * @Route("/lol/champion", name="lolChampionTest")
+     */
+    public function lolChampionAction(Request $request)
+    {
+        $champion = $request->get('champion');
+        if($champion == null) $champion = 'Teemo';
+        $service = $this->get('keiwen_loldata.external.lolchampion');
+        $service->setChampion($champion);
+        dump($service->getUrl());
+        return $service->testQuery();
+    }
+
+
 }
