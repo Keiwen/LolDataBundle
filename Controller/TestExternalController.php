@@ -5,14 +5,33 @@ namespace Keiwen\LolDataBundle\Controller;
 
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\Response;
 
 class TestExternalController extends Controller
 {
 
+    /**
+     * @Route("/_index", name="kld_indexTest")
+     */
+    public function indexAction()
+    {
+        $rClass = new \ReflectionClass($this);
+        $rMethods = $rClass->getMethods();
+        $routes = array();
+        foreach($rMethods as $rMethod) {
+            $methodName = $rMethod->getName();
+            if(strpos($methodName, 'Action') !== false) {
+                $routeName = 'kld_' . str_replace('Action', 'Test', $methodName);
+                $routes[] = '<a href="'.$this->generateUrl($routeName).'">'.str_replace('Action', '', $methodName).'</a>';
+            }
+        }
+        return new Response(implode('<br/>', $routes));
+    }
 
     /**
-     * @Route("/wikia/champions", name="wikiaChampionsTest")
+     * @Route("/wikia/champions", name="kld_wikiaChampionsTest")
      */
     public function wikiaChampionsAction()
     {
@@ -22,7 +41,7 @@ class TestExternalController extends Controller
     }
 
     /**
-     * @Route("/lolking/champions", name="lolkingChampionsTest")
+     * @Route("/lolking/champions", name="kld_lolkingChampionsTest")
      */
     public function lolkingChampionsAction()
     {
@@ -32,7 +51,7 @@ class TestExternalController extends Controller
     }
 
     /**
-     * @Route("/opgg/profile", name="opggProfileTest")
+     * @Route("/opgg/profile", name="kld_opggProfileTest")
      */
     public function opggProfileAction(Request $request)
     {
@@ -47,7 +66,7 @@ class TestExternalController extends Controller
     }
 
     /**
-     * @Route("/championgg/champions", name="championggChampionsTest")
+     * @Route("/championgg/champions", name="kld_championggChampionsTest")
      */
     public function championggChampionsAction()
     {
@@ -57,9 +76,9 @@ class TestExternalController extends Controller
     }
 
     /**
-     * @Route("/riot/apiVersions", name="riotApiVersionsTest")
+     * @Route("/riot/apiVersions", name="kld_riotApiVersionsTest")
      */
-    public function riotApiAction()
+    public function riotApiVersionsAction()
     {
         $service = $this->get('keiwen_loldata.external.riotapiversions');
         dump($service->getUrl());
@@ -68,7 +87,7 @@ class TestExternalController extends Controller
 
 
     /**
-     * @Route("/lol/champion", name="lolChampionTest")
+     * @Route("/lol/champion", name="kld_lolChampionTest")
      */
     public function lolChampionAction(Request $request)
     {
