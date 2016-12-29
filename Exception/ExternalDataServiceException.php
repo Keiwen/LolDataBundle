@@ -1,6 +1,6 @@
 <?php
 
-namespace Keiwen\LolDataBundle\Service;
+namespace Keiwen\LolDataBundle\Exception;
 
 
 class ExternalDataServiceException extends \RuntimeException

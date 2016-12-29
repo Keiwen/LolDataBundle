@@ -4,6 +4,7 @@ namespace Keiwen\LolDataBundle\Service;
 
 
 use Keiwen\LolDataBundle\DependencyInjection\KeiwenLolDataExtension;
+use Keiwen\LolDataBundle\Exception\ExternalDataInvalidContentException;
 use Keiwen\RiotApi\Api\RiotApi;
 use Keiwen\RiotApi\Services\ServiceRegistry;
 use Keiwen\Utils\Curl\SimpleCurl;
@@ -20,6 +21,7 @@ class RiotApiVersions extends AbstractExternalDataService
         parent::__construct($container, $cache, $defaultCacheLifetime, $cacheKeyPrefix);
         $this->url = $this->container->getParameter(KeiwenLolDataExtension::RIOT_URL_APIVERSIONS);
     }
+
 
     public function getUrl()
     {
@@ -44,6 +46,7 @@ class RiotApiVersions extends AbstractExternalDataService
         $resources = empty($resources[1]) ? '' : $resources[1];
         $resources = explode('id="footer"', $resources);
         $resources = empty($resources[0]) ? '' : $resources[0];
+        if(empty($resources)) throw new ExternalDataInvalidContentException($this->getName(), 'no resources found');
 
         //then should be ok
         $resourcesElmt = array();

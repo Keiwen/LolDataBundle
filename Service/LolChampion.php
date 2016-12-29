@@ -4,6 +4,7 @@ namespace Keiwen\LolDataBundle\Service;
 
 
 use Keiwen\LolDataBundle\DependencyInjection\KeiwenLolDataExtension;
+use Keiwen\LolDataBundle\Exception\ExternalDataMissingParamException;
 use Keiwen\Utils\Parsing\HtmlParsing;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 
@@ -23,9 +24,8 @@ class LolChampion extends AbstractExternalDataService
 
     public function getUrl()
     {
-        $missingParamMsg = 'LolChampion DataService: required "%s" parameter is missing';
         if(empty($this->urlParameters['champion'])) {
-            throw new ExternalDataServiceException(sprintf($missingParamMsg, 'champion'));
+            throw new ExternalDataMissingParamException($this->getName(), 'champion');
         }
         return $this->url . '/' . strtolower($this->urlParameters['champion']);
     }
@@ -42,7 +42,7 @@ class LolChampion extends AbstractExternalDataService
 
 
     /**
-     * @return mixed|null
+     * @return array|null
      */
     public function getContent(string $championKey = '')
     {

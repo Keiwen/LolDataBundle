@@ -4,6 +4,7 @@ namespace Keiwen\LolDataBundle\Service;
 
 
 use Keiwen\LolDataBundle\DependencyInjection\KeiwenLolDataExtension;
+use Keiwen\LolDataBundle\Exception\ExternalDataInvalidContentException;
 use Keiwen\Utils\Parsing\HtmlParsing;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 
@@ -17,7 +18,8 @@ class LolkingChampions extends AbstractExternalDataService
         parent::__construct($container, $cache, $defaultCacheLifetime, $cacheKeyPrefix);
         $this->url = $this->container->getParameter(KeiwenLolDataExtension::LOLKING_URL_CHAMPION);
     }
-
+    
+    
     public function getUrl()
     {
         return $this->url;
@@ -28,6 +30,7 @@ class LolkingChampions extends AbstractExternalDataService
     {
 
         $tableChampElmt = HtmlParsing::parseHtmlElmt($raw, 'clientsort champion-list', true, 1);
+        if(empty($tableChampElmt)) throw new ExternalDataInvalidContentException($this->getName(), 'champion table not found');
         $rows = HtmlParsing::parseTagList($tableChampElmt, 'tr', true);
         $rowTitle = array_shift($rows);
         $rowTitle = HtmlParsing::parseTagList($rowTitle, 'th', true);

@@ -4,6 +4,7 @@ namespace Keiwen\LolDataBundle\Service;
 
 
 use Keiwen\LolDataBundle\DependencyInjection\KeiwenLolDataExtension;
+use Keiwen\LolDataBundle\Exception\ExternalDataInvalidContentException;
 use Keiwen\Utils\Math\Divisibility;
 use Keiwen\Utils\Mutator\ArrayMutator;
 use Keiwen\Utils\Parsing\HtmlParsing;
@@ -19,6 +20,7 @@ class ChampionggChampions extends AbstractExternalDataService
         parent::__construct($container, $cache, $defaultCacheLifetime, $cacheKeyPrefix);
         $this->url = $this->container->getParameter(KeiwenLolDataExtension::CHAMPIONGG_URL_CHAMPION);
     }
+
 
     public function getUrl()
     {
@@ -47,8 +49,8 @@ class ChampionggChampions extends AbstractExternalDataService
             }
             $tagIteration++;
         }
+        if(empty($script)) throw new ExternalDataInvalidContentException($this->getName(), 'matchupData script not found');
         $data = json_decode($script, true);
-        if(empty($data)) return array();
 
         $champions = array();
         $roleList = array();
@@ -83,6 +85,7 @@ class ChampionggChampions extends AbstractExternalDataService
             $champions[$row['key']]['champion'] = $row['title'];
             $champions[$row['key']]['roles'][$row['role']] = $row['general'];
         }
+        if(empty($champions)) throw new ExternalDataInvalidContentException($this->getName(), 'no champion listed');
         sort($roleList);
         ksort($roleRanking);
         foreach($roleRanking as $role => &$roleRankingByRole) {

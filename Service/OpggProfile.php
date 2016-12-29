@@ -4,6 +4,8 @@ namespace Keiwen\LolDataBundle\Service;
 
 
 use Keiwen\LolDataBundle\DependencyInjection\KeiwenLolDataExtension;
+use Keiwen\LolDataBundle\Exception\ExternalDataInvalidContentException;
+use Keiwen\LolDataBundle\Exception\ExternalDataMissingParamException;
 use Keiwen\Utils\Parsing\HtmlParsing;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 
@@ -21,14 +23,14 @@ class OpggProfile extends AbstractExternalDataService
         $this->url = $this->container->getParameter(KeiwenLolDataExtension::OPGG_URL_PROFILE);
     }
 
+
     public function getUrl()
     {
-        $missingParamMsg = 'OpggProfile DataService: required "%s" parameter is missing';
         if(empty($this->urlParameters['server'])) {
-            throw new ExternalDataServiceException(sprintf($missingParamMsg, 'server'));
+            throw new ExternalDataMissingParamException($this->getName(), 'server');
         }
         if(empty($this->urlParameters['summonerName'])) {
-            throw new ExternalDataServiceException(sprintf($missingParamMsg, 'summonerName'));
+            throw new ExternalDataMissingParamException($this->getName(), 'summonerName');
         }
         $urlPattern = $this->url;
         $urlPattern = str_replace('{server}', $this->urlParameters['server'], $urlPattern);
@@ -61,6 +63,7 @@ class OpggProfile extends AbstractExternalDataService
     protected function parseRawContent(string $raw)
     {
         $ladderRankElmt = HtmlParsing::parseHtmlElmt($raw, 'LadderRank', true, 1);
+        if(empty($ladderRankElmt)) throw new ExternalDataInvalidContentException($this->getName(), 'ladder rank not found');
         $ranking = HtmlParsing::parseHtmlElmt($ladderRankElmt, 'ranking', true, 1);
         $ranking = (int) str_replace(',', '', $ranking);
         $pregMatch = array();

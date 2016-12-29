@@ -4,6 +4,7 @@ namespace Keiwen\LolDataBundle\Service;
 
 
 use Keiwen\LolDataBundle\DependencyInjection\KeiwenLolDataExtension;
+use Keiwen\LolDataBundle\Exception\ExternalDataInvalidContentException;
 use Keiwen\Utils\Parsing\HtmlParsing;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 
@@ -18,6 +19,7 @@ class WikiaChampions extends AbstractExternalDataService
         $this->url = $this->container->getParameter(KeiwenLolDataExtension::WIKIA_URL_CHAMPION);
     }
 
+
     public function getUrl()
     {
         return $this->url;
@@ -29,6 +31,7 @@ class WikiaChampions extends AbstractExternalDataService
         $wikiContent = HtmlParsing::parseHtmlElmt($raw, 'mw-content-text', true);
         $tables = HtmlParsing::parseTagList($wikiContent, 'table', true);
         $tableChampions = empty($tables[1]) ? '' : $tables[1]; //0 is caption;
+        if(empty($tableChampions)) throw new ExternalDataInvalidContentException($this->getName(), 'champion table not found');
         $rows = HtmlParsing::parseTagList($tableChampions, 'tr', true);
         $rowTitle = array_shift($rows);
         $rowTitle = HtmlParsing::parseTagList($rowTitle, 'th', true);

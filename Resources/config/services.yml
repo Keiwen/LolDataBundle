@@ -19,6 +19,7 @@ services:
             - '@?keiwen_loldata.cache'
             - '%keiwen_loldata.wikia.cache_lifetime%'
             - '%keiwen_loldata.wikia.cache_prefix%'
+            - '@?keiwen_loldata.logger'
 
     keiwen_loldata.external.lolchampion:
         class: '%keiwen_loldata.class.lolchampion%'
@@ -27,6 +28,7 @@ services:
             - '@?keiwen_loldata.cache'
             - '%keiwen_loldata.lol.cache_lifetime%'
             - '%keiwen_loldata.lol.cache_prefix%'
+            - '@?keiwen_loldata.logger'
 
     keiwen_loldata.external.lolkingchampions:
         class: '%keiwen_loldata.class.lolkingchampions%'
@@ -35,6 +37,7 @@ services:
             - '@?keiwen_loldata.cache'
             - '%keiwen_loldata.lolking.cache_lifetime%'
             - '%keiwen_loldata.lolking.cache_prefix%'
+            - '@?keiwen_loldata.logger'
 
     keiwen_loldata.external.opggprofile:
         class: '%keiwen_loldata.class.opggprofile%'
@@ -43,6 +46,7 @@ services:
             - '@?keiwen_loldata.cache'
             - '%keiwen_loldata.opgg.cache_lifetime%'
             - '%keiwen_loldata.opgg.cache_prefix%'
+            - '@?keiwen_loldata.logger'
 
     keiwen_loldata.external.riotapiversions:
         class: '%keiwen_loldata.class.riotapiversions%'
@@ -51,6 +55,7 @@ services:
             - '@?keiwen_loldata.cache'
             - '%keiwen_loldata.riot.cache_lifetime%'
             - '%keiwen_loldata.riot.cache_prefix%'
+            - '@?keiwen_loldata.logger'
 
     keiwen_loldata.external.championggchampions:
         class: '%keiwen_loldata.class.championggchampions%'
@@ -59,7 +64,7 @@ services:
             - '@?keiwen_loldata.cache'
             - '%keiwen_loldata.championgg.cache_lifetime%'
             - '%keiwen_loldata.championgg.cache_prefix%'
-
+            - '@?keiwen_loldata.logger'
 
 
     keiwen_loldata.combine.champion:
