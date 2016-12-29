@@ -70,8 +70,9 @@ class ChampionggChampion extends DtoParent
      * @param ChampionggChampion[] $roles
      * @return static
      */
-    public function setRoles(array $roles)
+    public function setRoles($roles)
     {
+        if(empty($roles)) $roles = array();
         return $this->set('roles', $roles);
     }
 
