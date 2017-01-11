@@ -1,0 +1,192 @@
+{
+  "2011": {
+    "season": "2011",
+    "host": "SE",
+    "winner": "fnatic",
+    "gamesCount": "28",
+    "champUsedCount": "46",
+    "champUnusedCount": "30",
+    "prizes": {
+      "1": 50000,
+      "2": 25000,
+      "3": 10000,
+      "4": 7000,
+      "5": 3500,
+      "6": 2000,
+      "7-8": 1000
+    },
+    "mvp": "xpeke",
+    "mostPicked": "nunu",
+    "mostBanned": "rumble",
+    "top10ChampUse": {
+      "nunu": 27,
+      "alistar": 25,
+      "rumble": 23,
+      "twistedfate": 22,
+      "vladimir": 22,
+      "jarvaniv": 20,
+      "corki": 20,
+      "vayne": 20,
+      "ashe": 19,
+      "nidalee": 19
+    }
+  },
+  "2012": {
+    "season": "2012",
+    "host": "US",
+    "winner": "taipeiassassins",
+    "gamesCount": "31",
+    "champUsedCount": "59",
+    "champUnusedCount": "43",
+    "prizes": {
+      "1": 1000000,
+      "2": 250000,
+      "3-4": 150000,
+      "5-8": 75000,
+      "9-10": 50000,
+      "11-12": 25000
+    },
+    "mvp": "toyz",
+    "mostPicked": "ezreal",
+    "mostBanned": "jayce",
+    "top10ChampUse": {
+      "ezreal": 27,
+      "jayce": 26,
+      "shen": 24,
+      "sona": 23,
+      "orianna": 22,
+      "maokai": 22,
+      "skarner": 21,
+      "karthus": 21,
+      "anivia": 19,
+      "alistar": 19
+    }
+  },
+  "2013": {
+    "season": "2013",
+    "host": "US",
+    "winner": "sktelecomt1",
+    "gamesCount": "63",
+    "champUsedCount": "69",
+    "champUnusedCount": "45",
+    "prizes": {
+      "1": 1000000,
+      "2": 250000,
+      "3-4": 150000,
+      "5-8": 75000,
+      "9-10": 45000,
+      "11-12": 30000,
+      "13-14": 25000
+    },
+    "mvp": "bengi",
+    "mostPicked": "zyra",
+    "mostBanned": "zed",
+    "top10ChampUse": {
+      "zed": 63,
+      "shen": 61,
+      "corki": 59,
+      "ahri": 52,
+      "zyra": 48,
+      "elise": 48,
+      "sona": 44,
+      "orianna": 41,
+      "leesin": 40,
+      "thresh": 40
+    }
+  },
+  "2014": {
+    "season": "2014",
+    "host": "KR",
+    "winner": "samsungwhite",
+    "gamesCount": "78",
+    "champUsedCount": "61",
+    "champUnusedCount": "59",
+    "prizes": {
+      "1": 1000000,
+      "2": 250000,
+      "3-4": 150000,
+      "5-8": 75000,
+      "9-11": 45000,
+      "12-13": 35000,
+      "14-16": 25000
+    },
+    "mvp": "mata",
+    "mostPicked": "khazix",
+    "mostBanned": "alistar",
+    "top10ChampUse": {
+      "alistar": 78,
+      "zilean": 75,
+      "maokai": 72,
+      "leesin": 72,
+      "ryze": 68,
+      "khazix": 66,
+      "thresh": 63,
+      "lucian": 61,
+      "janna": 53,
+      "rumble": 40
+    }
+  },
+  "2015": {
+    "season": "2015",
+    "host": "EU",
+    "winner": "sktelecomt1",
+    "gamesCount": "73",
+    "champUsedCount": "74",
+    "champUnusedCount": "52",
+    "prizes": {
+      "1": 1000000,
+      "2": 250000,
+      "3-4": 150000,
+      "5-8": 75000,
+      "9-11": 45000,
+      "12-13": 35000,
+      "14-16": 25000
+    },
+    "mvp": "marin",
+    "mostPicked": "elise",
+    "mostBanned": "gangplank",
+    "top10ChampUse": {
+      "gangplank": 73,
+      "mordekaiser": 72,
+      "elise": 71,
+      "lulu": 69,
+      "reksai": 56,
+      "kalista": 54,
+      "darius": 53,
+      "azir": 42,
+      "thresh": 35,
+      "tahmkench": 34
+    }
+  },
+  "2016": {
+    "season": "2016",
+    "host": "US",
+    "winner": "sktelecomt1",
+    "gamesCount": "77",
+    "champUsedCount": "57",
+    "champUnusedCount": "73",
+    "prizes": {
+      "1": 2028000,
+      "2": 760500,
+      "3-4": 380250,
+      "5-8": 202800,
+      "9-12": 114075,
+      "13-16": 63375
+    },
+    "mvp": "faker",
+    "mostPicked": "karma",
+    "mostBanned": "nidalee",
+    "top10ChampUse": {
+      "nidalee": 77,
+      "syndra": 75,
+      "olaf": 59,
+      "karma": 58,
+      "jhin": 51,
+      "elise": 50,
+      "caitlyn": 49,
+      "jayce": 47,
+      "ryze": 46,
+      "leesin": 45
+    }
+  }
+}
