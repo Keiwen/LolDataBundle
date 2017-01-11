@@ -1,0 +1,800 @@
+[
+  {
+    "title": "Lunar Revel 2017",
+    "id": "rnW-EZzoCUQ",
+    "date": "2017-01",
+    "champTags": "azir,vi,garen",
+    "categories": "Lunar Revel"
+  },
+  {
+    "title": "Snowdown Showdown 2016",
+    "id": "o0MtBZJyS3A",
+    "date": "2016-12",
+    "champTags": "braum,graves,karma",
+    "categories": "Snowdown Showdown"
+  },
+  {
+    "title": "Camille",
+    "id": "Z5tORKCmoFM",
+    "date": "2016-11",
+    "champTags": "camille",
+    "categories": "Champion"
+  },
+  {
+    "title": "All-Stars 2016",
+    "id": "j8G-4Omi9cs",
+    "date": "2016-11",
+    "champTags": "",
+    "categories": "All-Stars"
+  },
+  {
+    "title": "Elementalist Lux",
+    "id": "ohWVGLdUJyI",
+    "date": "2016-11",
+    "champTags": "lux",
+    "categories": "Skin"
+  },
+  {
+    "title": "Season 7",
+    "id": "WjfSWBvJCvA",
+    "date": "2016-10",
+    "champTags": "katarina,talon",
+    "categories": "Season launch"
+  },
+  {
+    "title": "Harrowing 2016",
+    "id": "TLLgRqScIU8",
+    "date": "2016-10",
+    "champTags": "teemo,tristana,morgana",
+    "categories": "Harrowing"
+  },
+  {
+    "title": "World Championship 2016 Finals",
+    "id": "MLARzSiTAVE",
+    "date": "2016-10",
+    "champTags": "",
+    "categories": "World Championship"
+  },
+  {
+    "title": "Star Guardian",
+    "id": "VG8qMMYLYME",
+    "date": "jinx,poppy,janna,lulu",
+    "champTags": "2016-09",
+    "categories": "Skin"
+  },
+  {
+    "title": "Ivern",
+    "id": "kxsYcW-M5bo",
+    "date": "2016-09",
+    "champTags": "ivern",
+    "categories": "Champion"
+  },
+  {
+    "title": "World Championship 2016",
+    "id": "wt2pvsE2lBs",
+    "date": "2016-09",
+    "champTags": "",
+    "categories": "World Championship"
+  },
+  {
+    "title": "Yorick",
+    "id": "k0LgguSq67Q",
+    "date": "2016-09",
+    "champTags": "yorick",
+    "categories": "Champion"
+  },
+  {
+    "title": "Arcade Ahri",
+    "id": "y9PQENNxURw",
+    "date": "2016-08",
+    "champTags": "ahri",
+    "categories": "Skin"
+  },
+  {
+    "title": "Kled",
+    "id": "ociHQ9SRBXk",
+    "date": "2016-07",
+    "champTags": "kled",
+    "categories": "Champion"
+  },
+  {
+    "title": "Project Ashe",
+    "id": "ISNWZMa_RRM",
+    "date": "2016-07",
+    "champTags": "ashe",
+    "categories": "Champion"
+  },
+  {
+    "title": "Ryze",
+    "id": "YxmYoFEIDpQ",
+    "date": "2016-07",
+    "champTags": "ryze",
+    "categories": "Champion"
+  },
+  {
+    "title": "Dark Star Thresh",
+    "id": "TbddxiBdllg",
+    "date": "2016-06",
+    "champTags": "thresh",
+    "categories": "Skin"
+  },
+  {
+    "title": "Taliyah",
+    "id": "YAq3LYMuuJI",
+    "date": "2016-05",
+    "champTags": "taliyah",
+    "categories": "Champion"
+  },
+  {
+    "title": "Mid-Season 2016",
+    "id": "KzqaRl0n_5s",
+    "date": "2016-04",
+    "champTags": "",
+    "categories": ""
+  },
+  {
+    "title": "Taric",
+    "id": "2coqxWjk-fA",
+    "date": "2016-04",
+    "champTags": "taric",
+    "categories": "Champion"
+  },
+  {
+    "title": "April Fools 2016",
+    "id": "d-zODnaz_G8",
+    "date": "2016-04",
+    "champTags": "draven,maokai,tahmkench,velkoz",
+    "categories": "April Fools"
+  },
+  {
+    "title": "Mecha Zero Sion",
+    "id": "dE_0gc99kys",
+    "date": "2016-03",
+    "champTags": "sion,malphite",
+    "categories": "Skin"
+  },
+  {
+    "title": "Aurelion Sol",
+    "id": "QlD8f0C-MWo",
+    "date": "2016-03",
+    "champTags": "aurelionsol",
+    "categories": "Champion"
+  },
+  {
+    "title": "Lunar Revel 2016",
+    "id": "9jCt5PmlXXo",
+    "date": "2016-01",
+    "champTags": "monkeyking",
+    "categories": "Lunar Revel"
+  },
+  {
+    "title": "Jhin",
+    "id": "fmhxgJZN2J4",
+    "date": "2016-01",
+    "champTags": "jhin",
+    "categories": "Champion"
+  },
+  {
+    "title": "Season 6",
+    "id": "WfQYTr7vso8",
+    "date": "2016-01",
+    "champTags": "caitlyn,braum,orianna,yasuo,shyvana",
+    "categories": "Season launch"
+  },
+  {
+    "title": "Poppy",
+    "id": "fkAmOyNDKgU",
+    "date": "2015-12",
+    "champTags": "poppy",
+    "categories": "Champion"
+  },
+  {
+    "title": "Snowdown Showdown 2015",
+    "id": "bSgPd2YC7HA",
+    "date": "2015-12",
+    "champTags": "bard,gnar,syndra",
+    "categories": "Snowdown Showdown"
+  },
+  {
+    "title": "Illaoi",
+    "id": "XOyGBQidrv4",
+    "date": "2015-11",
+    "champTags": "illaoi",
+    "categories": "Champion"
+  },
+  {
+    "title": "Dragon Trainer Tristana",
+    "id": "Z-C6czDMHtc",
+    "date": "2015-11",
+    "champTags": "tristana",
+    "categories": "Skin"
+  },
+  {
+    "title": "Harrowing 2015",
+    "id": "r-_fNivZXno",
+    "date": "2015-10",
+    "champTags": "jinx,pantheon",
+    "categories": "Harrowing"
+  },
+  {
+    "title": "World Championship 2015",
+    "id": "GbhR5Tcfdhs",
+    "date": "2015-10",
+    "champTags": "",
+    "categories": "World Championship"
+  },
+  {
+    "title": "Warlords",
+    "id": "NDQn77Aot-M",
+    "date": "2015-09",
+    "champTags": "",
+    "categories": "World Championship"
+  },
+  {
+    "title": "Kindred",
+    "id": "eqhKEoagGT4",
+    "date": "2015-09",
+    "champTags": "kindred",
+    "categories": "Champion"
+  },
+  {
+    "title": "Project Yi",
+    "id": "XBt-1uBC3o4",
+    "date": "2015-08",
+    "champTags": "masteryi",
+    "categories": "Skin"
+  },
+  {
+    "title": "Arcade",
+    "id": "mo9H5Dv4jLU",
+    "date": "2015-08",
+    "champTags": "riven,sona,missfortune,blitzcrank",
+    "categories": "Skin"
+  },
+  {
+    "title": "Gangplank",
+    "id": "XqT7mWinhro",
+    "date": "2015-08",
+    "champTags": "gangplank",
+    "categories": "Champion,Bilgewater"
+  },
+  {
+    "title": "Bilgewater (Miss Fortune)",
+    "id": "Rmp2vmIb-lE",
+    "date": "2015-07",
+    "champTags": "missfortune",
+    "categories": "Bilgewater"
+  },
+  {
+    "title": "Bilgewater (Twisted Fate & Graves)",
+    "id": "WZCftM53kyQ",
+    "date": "2015-07",
+    "champTags": "twistedfate,graves",
+    "categories": "Bilgewater"
+  },
+  {
+    "title": "Bilgewater (Gangplank)",
+    "id": "TCB-mLr3o5s",
+    "date": "2015-07",
+    "champTags": "gangplank",
+    "categories": "Bilgewater"
+  },
+  {
+    "title": "Tahm Kench",
+    "id": "fJqHydHBXzQ",
+    "date": "2015-07",
+    "champTags": "tahmkench",
+    "categories": "Champion"
+  },
+  {
+    "title": "Ekko",
+    "id": "SnXkizeej3E",
+    "date": "2015-05",
+    "champTags": "ekko",
+    "categories": "Champion"
+  },
+  {
+    "title": "Omega Squad Teemo",
+    "id": "cXLVtAkJUVk",
+    "date": "2015-04",
+    "champTags": "teemo",
+    "categories": "Skin"
+  },
+  {
+    "title": "April Fools 2015",
+    "id": "YUcQPmB8AV4",
+    "date": "2015-04",
+    "champTags": "",
+    "categories": "April Fools"
+  },
+  {
+    "title": "Bard",
+    "id": "8oFKk8KkSS4",
+    "date": "2015-03",
+    "champTags": "bard",
+    "categories": "Champion"
+  },
+  {
+    "title": "DJ Sona",
+    "id": "mrUFlCuZNVg",
+    "date": "2015-02",
+    "champTags": "sona",
+    "categories": "Skin"
+  },
+  {
+    "title": "Lunar Revel 2015",
+    "id": "VvBpWymbzcQ",
+    "date": "2015-02",
+    "champTags": "jinx",
+    "categories": "Lunar Revel,Skin"
+  },
+  {
+    "title": "Season 5",
+    "id": "EKhGxLz-_-E",
+    "date": "2015-01",
+    "champTags": "pantheon",
+    "categories": "Season launch"
+  },
+  {
+    "title": "Rek'Sai",
+    "id": "1Pz7N-kVw9s",
+    "date": "2014-12",
+    "champTags": "reksai",
+    "categories": "Champion"
+  },
+  {
+    "title": "Snowdown Showdown 2014",
+    "id": "eXnYFGgwvsg",
+    "date": "2014-12",
+    "champTags": "orianna",
+    "categories": "Snowdown Showdown,Skin"
+  },
+  {
+    "title": "Kalista",
+    "id": "LArDrvyXENQ",
+    "date": "2014-11",
+    "champTags": "kalista",
+    "categories": "Champion"
+  },
+  {
+    "title": "Summoner's Rift",
+    "id": "G0uWfKsdZJs",
+    "date": "2014-10",
+    "champTags": "vi",
+    "categories": ""
+  },
+  {
+    "title": "Harrowing 2014",
+    "id": "U_dZj0excoI",
+    "date": "2014-10",
+    "champTags": "",
+    "categories": "Harrowing"
+  },
+  {
+    "title": "Sion",
+    "id": "-dnO77O5_U0",
+    "date": "2014-10",
+    "champTags": "sion",
+    "categories": "Champion"
+  },
+  {
+    "title": "World Championship 2014",
+    "id": "iasePL4LOMM",
+    "date": "2014-09",
+    "champTags": "",
+    "categories": "World Championship"
+  },
+  {
+    "title": "Shurima Crest",
+    "id": "zt8-i9S3sQY",
+    "date": "2014-09",
+    "champTags": "",
+    "categories": ""
+  },
+  {
+    "title": "Azir",
+    "id": "mPVRIQZ7c84",
+    "date": "2014-09",
+    "champTags": "azir",
+    "categories": "Champion"
+  },
+  {
+    "title": "Gnar",
+    "id": "0qkTR1yDJ80",
+    "date": "2014-08",
+    "champTags": "gnar",
+    "categories": "Champion"
+  },
+  {
+    "title": "FIFA World Cup 2014",
+    "id": "vKCVHwK0yMI",
+    "date": "2014-06",
+    "champTags": "lucian,alistar,maokai,gragas,twistedfate",
+    "categories": ""
+  },
+  {
+    "title": "Braum",
+    "id": "MJk09he6Mgs",
+    "date": "2014-05",
+    "champTags": "braum",
+    "categories": "Champion"
+  },
+  {
+    "title": "All-Stars 2014",
+    "id": "IMCofGPlxns",
+    "date": "2014-05",
+    "champTags": "",
+    "categories": "All-Stars"
+  },
+  {
+    "title": "April Fools 2014",
+    "id": "3OLOFb5Gcx0",
+    "date": "2014-04",
+    "champTags": "",
+    "categories": "April Fools"
+  },
+  {
+    "title": "Super Galaxy Rumble",
+    "id": "7AvayqDES5s",
+    "date": "2014-03",
+    "champTags": "rumble",
+    "categories": "Skin"
+  },
+  {
+    "title": "Vel'Koz",
+    "id": "bhYy1jhZFEQ",
+    "date": "2014-02",
+    "champTags": "velkoz",
+    "categories": "Champion"
+  },
+  {
+    "title": "Season 4",
+    "id": "lsJ6tXI8sNo",
+    "date": "2014-01",
+    "champTags": "ahri,morgana,darius,malphite",
+    "categories": "Season launch"
+  },
+  {
+    "title": "Lunar Revel 2014",
+    "id": "PjGKqSo2TPo",
+    "date": "2014-01",
+    "champTags": "tryndamere,diana,riven",
+    "categories": "Lunar Revel,Skin"
+  },
+  {
+    "title": "Snowdown Showdown 2013",
+    "id": "CrL13qnDQbs",
+    "date": "2013-12",
+    "champTags": "sivir,lulu,singed",
+    "categories": "Snowdown Showdown"
+  },
+  {
+    "title": "Yasuo",
+    "id": "bg9NXplX4gE",
+    "date": "2013-12",
+    "champTags": "yasuo",
+    "categories": "Champion"
+  },
+  {
+    "title": "Infernal Nasus",
+    "id": "sr6CX8Q3VjQ",
+    "date": "2013-11",
+    "champTags": "nasus",
+    "categories": "Skin"
+  },
+  {
+    "title": "Harrowing 2013",
+    "id": "ydlRV06vT14",
+    "date": "2013-10",
+    "champTags": "zyra",
+    "categories": "Harrowing,Skin"
+  },
+  {
+    "title": "Jinx",
+    "id": "H34tFK2yBTU",
+    "date": "2013-10",
+    "champTags": "jinx",
+    "categories": "Champion"
+  },
+  {
+    "title": "World Championship 2013",
+    "id": "Z3PgdPovPCc",
+    "date": "2013-09",
+    "champTags": "",
+    "categories": "World Championship"
+  },
+  {
+    "title": "Pool Party",
+    "id": "--wa_2e8_x0",
+    "date": "2013-09",
+    "champTags": "leesin,graves,leona,renekton",
+    "categories": "Pool Party"
+  },
+  {
+    "title": "Forecast Janna",
+    "id": "siMydycgDXg",
+    "date": "2013-09",
+    "champTags": "janna",
+    "categories": "Skin"
+  },
+  {
+    "title": "Lucian",
+    "id": "X8XOAe5BQJo",
+    "date": "2013-08",
+    "champTags": "lucian",
+    "categories": "Champion"
+  },
+  {
+    "title": "Spirit Guard Udyr",
+    "id": "62-jTzIDajc",
+    "date": "2013-07",
+    "champTags": "udyr",
+    "categories": "Skin"
+  },
+  {
+    "title": "Aatrox",
+    "id": "Tjnv28-l2UU",
+    "date": "2013-06",
+    "champTags": "aatrox",
+    "categories": "Champion"
+  },
+  {
+    "title": "All-Stars 2013",
+    "id": "agQiLSq5GfE",
+    "date": "2013-05",
+    "champTags": "",
+    "categories": "All-Stars"
+  },
+  {
+    "title": "Lissandra",
+    "id": "MCPQhKVxmJE",
+    "date": "2013-04",
+    "champTags": "lissandra",
+    "categories": "Champion"
+  },
+  {
+    "title": "Zac",
+    "id": "oce4m6vKhaI",
+    "date": "2013-03",
+    "champTags": "zac",
+    "categories": "Champion"
+  },
+  {
+    "title": "Quinn and Valor",
+    "id": "HMtXmZaEyII",
+    "date": "2013-03",
+    "champTags": "quinn",
+    "categories": "Champion"
+  },
+  {
+    "title": "Lunar Revel 2013",
+    "id": "BojzFpQyCN4",
+    "date": "2013-02",
+    "champTags": "annie",
+    "categories": "Lunar Revel,Skin"
+  },
+  {
+    "title": "Season 3",
+    "id": "pPpN6QO2hfE",
+    "date": "2013-02",
+    "champTags": "",
+    "categories": "Season launch"
+  },
+  {
+    "title": "Thresh",
+    "id": "H1_3D1Ub9zA",
+    "date": "2013-01",
+    "champTags": "thresh",
+    "categories": "Champion"
+  },
+  {
+    "title": "Aether Wing Kayle",
+    "id": "6Jkbzi75Nys",
+    "date": "2013-01",
+    "champTags": "kayle",
+    "categories": "Skin"
+  },
+  {
+    "title": "Snowdown Showdown 2012",
+    "id": "AYLI2rrxWt0",
+    "date": "2012-12",
+    "champTags": "fiddlesticks",
+    "categories": "Snowdown Showdown,Skin"
+  },
+  {
+    "title": "Vi",
+    "id": "LEXoT9RMZ2E",
+    "date": "2012-12",
+    "champTags": "vi",
+    "categories": "Champion"
+  },
+  {
+    "title": "Nami",
+    "id": "O9z_UCC1h68",
+    "date": "2012-12",
+    "champTags": "nami",
+    "categories": "Champion"
+  },
+  {
+    "title": "Eternum Nocturne",
+    "id": "38p1_WxoAfs",
+    "date": "2012-12",
+    "champTags": "nocturne",
+    "categories": "Skin"
+  },
+  {
+    "title": "Zed",
+    "id": "AS2K2xs0Hmo",
+    "date": "2012-11",
+    "champTags": "zed",
+    "categories": "Champion"
+  },
+  {
+    "title": "Harrowing 2012 (Elise)",
+    "id": "YrRFiowinFU",
+    "date": "2012-10",
+    "champTags": "elise",
+    "categories": "Harrowing,Champion"
+  },
+  {
+    "title": "World Championship 2012",
+    "id": "0AQy829wveg",
+    "date": "2012-10",
+    "champTags": "",
+    "categories": "World Championship"
+  },
+  {
+    "title": "Kha'Zix",
+    "id": "yTwY1d_cgV8",
+    "date": "2012-09",
+    "champTags": "khazix",
+    "categories": "Champion"
+  },
+  {
+    "title": "Syndra",
+    "id": "WzeyD5FjKBI",
+    "date": "2012-09",
+    "champTags": "syndra",
+    "categories": "Champion"
+  },
+  {
+    "title": "Rengar",
+    "id": "jOJXlkAdcIQ",
+    "date": "2012-08",
+    "champTags": "rengar",
+    "categories": "Champion"
+  },
+  {
+    "title": "Diana",
+    "id": "CoJaDp5f-V8",
+    "date": "2012-08",
+    "champTags": "diana",
+    "categories": "Champion"
+  },
+  {
+    "title": "Battlecast Prime Cho'Gath",
+    "id": "V7BeP1imFWc",
+    "date": "2012-08",
+    "champTags": "chogath",
+    "categories": "Skin"
+  },
+  {
+    "title": "Zyra",
+    "id": "cUpDM4KQs4M",
+    "date": "2012-07",
+    "champTags": "zyra",
+    "categories": "Champion"
+  },
+  {
+    "title": "Jayce",
+    "id": "ik0vzF2QD2A",
+    "date": "2012-07",
+    "champTags": "jayce",
+    "categories": "Champion"
+  },
+  {
+    "title": "Pulsefire Ezreal",
+    "id": "BfdBg3qP2BQ",
+    "date": "2012-06",
+    "champTags": "ezreal",
+    "categories": "skin"
+  },
+  {
+    "title": "Draven",
+    "id": "LCGGCl3zfHc",
+    "date": "2012-06",
+    "champTags": "draven",
+    "categories": "Champion"
+  },
+  {
+    "title": "Darius",
+    "id": "yHS0hNQ_h-o",
+    "date": "2012-05",
+    "champTags": "darius",
+    "categories": "Champion"
+  },
+  {
+    "title": "Varus",
+    "id": "CMl1-HnSz7c",
+    "date": "2012-05",
+    "champTags": "varus",
+    "categories": "Champion"
+  },
+  {
+    "title": "Gatekeeper Galio",
+    "id": "j5-k__SLgnk",
+    "date": "2012-04",
+    "champTags": "galio",
+    "categories": "Skin"
+  },
+  {
+    "title": "Hecarim",
+    "id": "7dMvI9Ipg6Y",
+    "date": "2012-04",
+    "champTags": "hecarim",
+    "categories": "Champion"
+  },
+  {
+    "title": "Lulu",
+    "id": "4zeV2ktc-Xg",
+    "date": "2012-03",
+    "champTags": "lulu",
+    "categories": "Champion"
+  },
+  {
+    "title": "Lunar Revel 2012",
+    "id": "xx4i_VMn9wM",
+    "date": "2012-01",
+    "champTags": "talon,sona",
+    "categories": "Lunar Revel"
+  },
+  {
+    "title": "Snowdown Showdown 2011",
+    "id": "g-2XZ_Xe3E8",
+    "date": "2011-12",
+    "champTags": "heimerdinger,maokai",
+    "categories": ""
+  },
+  {
+    "title": "Harrowing 2011",
+    "id": "bquR65LKO9o",
+    "date": "2011-10",
+    "champTags": "nocturne",
+    "categories": "Harrowing,Skin"
+  },
+  {
+    "title": "Surprise Party Fiddlesticks",
+    "id": "hGmbThNEdZ8",
+    "date": "2011-10",
+    "champTags": "fiddlesticks",
+    "categories": "Skin"
+  },
+  {
+    "title": "Crystal Scar",
+    "id": "mNFCiLGwUi8",
+    "date": "2011-09",
+    "champTags": "katarina,ashe,ryze,chogath,teemo,warwick,mordekaiser,kayle",
+    "categories": ""
+  },
+  {
+    "title": "Snowdown Showdown 2010",
+    "id": "M2B5MV8UYPs",
+    "date": "2010-12",
+    "champTags": "sona,shaco,poppy,kogmaw,gragas,missfortune",
+    "categories": "Snowdown Showdown,Skin"
+  },
+  {
+    "title": "Harrowing 2010",
+    "id": "nSRip0kgg1w",
+    "date": "2010-10",
+    "champTags": "katarina,ryze",
+    "categories": "Harrowing,Skin"
+  },
+  {
+    "title": "Classic",
+    "id": "AllLupai_54",
+    "date": "2009-10",
+    "champTags": "katarina,ryze",
+    "categories": "Season launch"
+  }
+]
