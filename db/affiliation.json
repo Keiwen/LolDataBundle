@@ -1,0 +1,76 @@
+{
+  "images_path": "",
+
+  "affiliations": {
+    "": {
+      "id": "",
+      "name": "Undefined",
+      "icon": ""
+    },
+    "bandlecity": {
+      "id": "bandlecity",
+      "name": "Bandle City",
+      "icon": ""
+    },
+    "bilgewater": {
+      "id": "bilgewater",
+      "name": "Bilgewater",
+      "icon": ""
+    },
+    "demacia": {
+      "id": "demacia",
+      "name": "Demacia",
+      "icon": ""
+    },
+    "freljord": {
+      "id": "freljord",
+      "name": "Freljord",
+      "icon": ""
+    },
+    "independent": {
+      "id": "independent",
+      "name": "Independent",
+      "icon": ""
+    },
+    "ionia": {
+      "id": "ionia",
+      "name": "Ionia",
+      "icon": ""
+    },
+    "mttargon": {
+      "id": "mttargon",
+      "name": "Mt Targon",
+      "icon": ""
+    },
+    "noxus": {
+      "id": "noxus",
+      "name": "Noxus",
+      "icon": ""
+    },
+    "piltover": {
+      "id": "piltover",
+      "name": "Piltover",
+      "icon": ""
+    },
+    "shadowisles": {
+      "id": "shadowisles",
+      "name": "Shadow Isles",
+      "icon": ""
+    },
+    "shurima": {
+      "id": "shurima",
+      "name": "Shurima",
+      "icon": ""
+    },
+    "void": {
+      "id": "void",
+      "name": "Void",
+      "icon": ""
+    },
+    "zaun": {
+      "id": "zaun",
+      "name": "Zaun",
+      "icon": ""
+    }
+  }
+}
