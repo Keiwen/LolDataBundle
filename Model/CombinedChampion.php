@@ -37,7 +37,7 @@ class CombinedChampion extends ChampionDto
      * @param ChampionInfoDto $regional
      * @return static
      */
-    public function setRegional(ChampionInfoDto $regional)
+    public function setRegional(ChampionInfoDto $regional = null)
     {
         return $this->set('regional', $regional);
     }
@@ -56,7 +56,7 @@ class CombinedChampion extends ChampionDto
      * @param WikiaChampion $wikia
      * @return static
      */
-    public function setWikia(WikiaChampion $wikia)
+    public function setWikia(WikiaChampion $wikia = null)
     {
         return $this->set('wikia', $wikia);
     }
@@ -76,7 +76,7 @@ class CombinedChampion extends ChampionDto
      * @param LolChampion $lol
      * @return static
      */
-    public function setLol(LolChampion $lol)
+    public function setLol(LolChampion $lol = null)
     {
         return $this->set('lol', $lol);
     }
@@ -96,7 +96,7 @@ class CombinedChampion extends ChampionDto
      * @param LolkingChampion $lolking
      * @return static
      */
-    public function setLolking(LolkingChampion $lolking)
+    public function setLolking(LolkingChampion $lolking = null)
     {
         return $this->set('lolking', $lolking);
     }
@@ -115,7 +115,7 @@ class CombinedChampion extends ChampionDto
      * @param ChampionggChampion $championgg
      * @return static
      */
-    public function setChampiongg(ChampionggChampion $championgg)
+    public function setChampiongg(ChampionggChampion $championgg = null)
     {
         return $this->set('championgg', $championgg);
     }

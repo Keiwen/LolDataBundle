@@ -80,7 +80,7 @@ abstract class AbstractCombine
      * @param string                           $fieldMap if array
      * @param string                           $insertInNewField empty to merge data
      * @param string                           $dtoClassOutput if dto expected, fully qualified class name here
-     * @return mixed|string
+     * @return array|DtoParent|\stdClass|string
      */
     public function combineContent($original, $additional, string $fieldMap = '', string $insertInNewField = '', string $dtoClassOutput = '')
     {
@@ -126,31 +126,45 @@ abstract class AbstractCombine
 
 
     /**
-     * @param array  $original
-     * @param array  $additional
-     * @param string $fieldMap
-     * @param string $insertInNewField
-     * @param string $dtoClassOutput
-     * @return array
+     * @param array|string|\stdClass|DtoParent[] $original
+     * @param array|string|\stdClass|DtoParent[] $additional
+     * @param string                             $fieldMap
+     * @param string                             $insertInNewField
+     * @param string                             $dtoClassOutput
+     * @return array|string|\stdClass|DtoParent[]
      */
-    public function combineContentList(array $original, array $additional, string $fieldMap = '', string $insertInNewField = '', string $dtoClassOutput = '')
+    public function combineContentList($original, $additional, string $fieldMap = '', string $insertInNewField = '', string $dtoClassOutput = '')
     {
-        foreach($additional as $index => $add) {
+        //get array
+        $originalData = is_array($original) ? $original : $this->extractDataArray($original);
+        $additionalData = is_array($additional) ? $additional : $this->extractDataArray($additional);
+        if(empty($additionalData)) return $original;
+        foreach($additionalData as $index => $add) {
             $add = $this->extractDataArray($add);
             if($fieldMap) {
                 //associate using a field of additional data
                 //check if field filled and found in original
-                if(empty($add[$fieldMap]) || empty($original[$add[$fieldMap]])) continue;
+                if(empty($add[$fieldMap]) || empty($originalData[$add[$fieldMap]])) continue;
                 $key = $add[$fieldMap];
             } else {
                 //associate using a key of additional data
                 //check if found in original
-                if(empty($original[$index])) continue;
+                if(empty($originalData[$index])) continue;
                 $key = $index;
             }
-            $original[$key] = $this->combineContent($original[$key], $add, $insertInNewField, $dtoClassOutput);
+            $originalData[$key] = $this->combineContent($originalData[$key], $add, $fieldMap, $insertInNewField, $dtoClassOutput);
         }
-        return $original;
+
+        //ensure output format
+        if(!is_array($original)) {
+            switch(RiotApi::detectOutputFormat($original)) {
+                case RiotApi::FORMAT_STDCLASS:
+                    return json_decode(json_decode($originalData));
+                case RiotApi::FORMAT_JSON:
+                    return json_encode($originalData);
+            }
+        }
+        return $originalData;
     }
 
 
@@ -161,6 +175,7 @@ abstract class AbstractCombine
      * @return mixed|string
      */
     public function retrieveOutputField($output, string $fieldName) {
+        if(empty($output)) return $output;
         //extract list of champions in 'champions' field
         switch(RiotApi::detectOutputFormat($output)) {
             case RiotApi::FORMAT_DTO:
@@ -199,9 +214,10 @@ abstract class AbstractCombine
     /**
      * @param array  $output
      * @param string $fieldName
-     * @return array
+     * @param bool   $resultAsArray
+     * @return array|string|\stdClass
      */
-    public function retrieveOutputFieldList($output, string $fieldName) {
+    public function retrieveOutputFieldList($output, string $fieldName, bool $resultAsArray = false) {
         $outputFormat = RiotApi::detectOutputFormat($output);
         switch($outputFormat) {
             //get array
@@ -211,9 +227,11 @@ abstract class AbstractCombine
             case RiotApi::FORMAT_STDCLASS:
                 $output = json_decode(json_encode($output), true);
         }
+        if(empty($output)) $output = array();
         foreach($output as $key => &$data) {
             $data = $this->retrieveOutputField($data, $fieldName);
         }
+        if($resultAsArray) return $output;
         switch($outputFormat) {
             //turn back to format
             case RiotApi::FORMAT_JSON:

@@ -15,7 +15,7 @@ class CombineChampion extends AbstractCombine
 
     protected $switchRegional = true;
     protected $switchWikia = true;
-    protected $switchLol = true;
+    protected $switchLol = false;
     protected $switchLolking = true;
     protected $switchChampiongg = true;
 
@@ -71,9 +71,9 @@ class CombineChampion extends AbstractCombine
     public function getChampions(string $locale = '', string $version = '')
     {
         $champions = $this->readInCache('champions');
-        if($champions !== null) return $champions;
+        if($champions !== null && false) return $champions;
         $champions = $this->getChampionsGlobal($locale, $version);
-        $refChampions = $this->retrieveOutputFieldList($champions, 'name');
+        $refChampions = $this->retrieveOutputFieldList($champions, 'name', true);
         //if dto received, build the combined dto
         if(RiotApi::detectOutputFormat($champions) == RiotApi::FORMAT_DTO) {
             foreach($champions as &$championDto) {
@@ -84,17 +84,17 @@ class CombineChampion extends AbstractCombine
         //optionnal data
         if($this->switchRegional) {
             $regional = $this->getChampionsRegional();
-            $champions = $this->combineContent($champions, $regional, 'id', 'regional');
+            $champions = $this->combineContentList($champions, $regional, 'id', 'regional');
         }
         if($this->switchWikia) {
             $wikia = $this->getChampionsWikia();
             $wikia = ArrayMutator::convertKeysWithRefMap($wikia, 'champion', $refChampions);
-            $champions = $this->combineContent($champions, $wikia, '', 'wikia');
+            $champions = $this->combineContentList($champions, $wikia, '', 'wikia');
         }
         if($this->switchLolking) {
             $lolking = $this->getChampionsLolking();
             $lolking = ArrayMutator::convertKeysWithRefMap($lolking, 'champion', $refChampions);
-            $champions = $this->combineContent($champions, $lolking, '', 'lolking');
+            $champions = $this->combineContentList($champions, $lolking, '', 'lolking');
         }
         if($this->switchLol) {
             $championsList = $champions;
