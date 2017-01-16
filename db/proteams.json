@@ -1,0 +1,338 @@
+{
+  "againstallauthority": {
+    "key": "againstallauthority",
+    "name": "against All authority",
+    "region": "eu",
+    "short": "aAa"
+  },
+  "counterlogicgaming": {
+    "key": "counterlogicgaming",
+    "name": "Counter Logic Gaming",
+    "region": "na",
+    "short": "CLG"
+  },
+  "epikgamer": {
+    "key": "epikgamer",
+    "name": "Epik Gamer",
+    "region": "na",
+    "short": "EG"
+  },
+  "fnatic": {
+    "key": "fnatic",
+    "name": "Fnatic",
+    "region": "eu",
+    "short": "FNC"
+  },
+  "teamgamedde": {
+    "key": "teamgamedde",
+    "name": "Team GAMED!DE",
+    "region": "eu",
+    "short": "GMD"
+  },
+  "teampacific": {
+    "key": "teampacific",
+    "name": "Team Pacific",
+    "region": "sea",
+    "short": "TP"
+  },
+  "teamsolomid": {
+    "key": "teamsolomid",
+    "name": "Team SoloMid",
+    "region": "na",
+    "short": "TSM"
+  },
+  "xan": {
+    "key": "xan",
+    "name": "Xan",
+    "region": "sea",
+    "short": "XAN"
+  },
+  "teamdignitas": {
+    "key": "teamdignitas",
+    "name": "Team Dignitas",
+    "region": "na",
+    "short": "DIG"
+  },
+  "moscowfive": {
+    "key": "moscowfive",
+    "name": "Moscow Five",
+    "region": "eu",
+    "short": "M5"
+  },
+  "skgaming": {
+    "key": "skgaming",
+    "name": "SK Gaming",
+    "region": "eu",
+    "short": "SKG"
+  },
+  "counterlogicgamingeu": {
+    "key": "counterlogicgamingeu",
+    "name": "Counter Logic Gaming Europe",
+    "region": "eu",
+    "short": "CLG"
+  },
+  "taipeiassassins": {
+    "key": "taipeiassassins",
+    "name": "Taipei Assassins",
+    "region": "sea",
+    "short": "TPA"
+  },
+  "azubufrost": {
+    "key": "azubufrost",
+    "name": "Azubu Frost",
+    "region": "kr",
+    "short": "AZF"
+  },
+  "najinsword": {
+    "key": "najinsword",
+    "name": "NaJin Black Sword,NaJin Sword",
+    "region": "kr",
+    "short": "NAJ"
+  },
+  "najinblacksword": {
+    "key": "najinsword",
+    "name": "NaJin Black Sword",
+    "region": "kr",
+    "short": "NJS"
+  },
+  "teamwe": {
+    "key": "teamwe",
+    "name": "Team WE",
+    "region": "cn",
+    "short": "WE"
+  },
+  "invictusgaming": {
+    "key": "invictusgaming",
+    "name": "Invictus Gaming",
+    "region": "cn",
+    "short": "IG"
+  },
+  "saigonjokers": {
+    "key": "saigonjokers",
+    "name": "Saigon Jokers",
+    "region": "sea",
+    "short": "SAJ"
+  },
+  "gamaniabears": {
+    "key": "gamaniabears",
+    "name": "Gamania Bears",
+    "region": "sea",
+    "short": "GAB"
+  },
+  "royalclub": {
+    "key": "royalclub",
+    "name": "Royal Club",
+    "region": "cn",
+    "short": "RYL"
+  },
+  "starhornroyalclub": {
+    "key": "royalclub",
+    "name": "Star Horn Royal Club",
+    "region": "cn",
+    "short": "SHR"
+  },
+  "cloud9": {
+    "key": "cloud9",
+    "name": "Cloud 9",
+    "region": "na",
+    "short": "C9"
+  },
+  "mineski": {
+    "key": "mineski",
+    "name": "Mineski",
+    "region": "sea",
+    "short": "MSK"
+  },
+  "teamvulcun": {
+    "key": "teamvulcun",
+    "name": "Team Vulcun",
+    "region": "na",
+    "short": "VUL"
+  },
+  "gaminggeareu": {
+    "key": "gaminggeareu",
+    "name": "GamingGear .eu",
+    "region": "iwc",
+    "short": "GG"
+  },
+  "samsungozone": {
+    "key": "samsungozone",
+    "name": "Samsung Ozone",
+    "region": "kr",
+    "short": "SSO"
+  },
+  "samsungwhite": {
+    "key": "samsungozone",
+    "name": "Samsung White",
+    "region": "kr",
+    "short": "SSW"
+  },
+  "sktelecomt1": {
+    "key": "sktelecomt1",
+    "name": "SK Telecom T1",
+    "region": "kr",
+    "short": "SKT"
+  },
+  "lemondogs": {
+    "key": "lemondogs",
+    "name": "Lemondogs",
+    "region": "eu",
+    "short": "LD"
+  },
+  "gambitgaming": {
+    "key": "gambitgaming",
+    "name": "Gambit Gaming",
+    "region": "eu",
+    "short": "GMB"
+  },
+  "omg": {
+    "key": "omg",
+    "name": "OMG",
+    "region": "cn",
+    "short": "OMG"
+  },
+  "alliance": {
+    "key": "alliance",
+    "name": "Alliance",
+    "region": "eu",
+    "short": "ALL"
+  },
+  "edwardgaming": {
+    "key": "edwardgaming",
+    "name": "EDward Gaming",
+    "region": "cn",
+    "short": "EDG"
+  },
+  "samsungblue": {
+    "key": "samsungblue",
+    "name": "Samsung Blue",
+    "region": "kr",
+    "short": "SSB"
+  },
+  "najinwhitesword": {
+    "key": "najinwhitesword",
+    "name": "NaJin White Sword",
+    "region": "kr",
+    "short": "NWS"
+  },
+  "ahqesportsclub": {
+    "key": "ahqesportsclub",
+    "name": "Ahq e-Sports Club",
+    "region": "sea",
+    "short": "AHQ"
+  },
+  "lmq": {
+    "key": "lmq",
+    "name": "LMQ",
+    "region": "na",
+    "short": "LMQ"
+  },
+  "darkpassage": {
+    "key": "darkpassage",
+    "name": "Dark Passage",
+    "region": "iwc",
+    "short": "DP"
+  },
+  "kabum": {
+    "key": "kabum",
+    "name": "KaBuM!",
+    "region": "iwc",
+    "short": "KBM"
+  },
+  "lgdgaming": {
+    "key": "lgdgaming",
+    "name": "LGD Gaming",
+    "region": "cn",
+    "short": "LGD"
+  },
+  "h2kgaming": {
+    "key": "h2kgaming",
+    "name": "H2K-Gaming",
+    "region": "eu",
+    "short": "H2K"
+  },
+  "kootigers": {
+    "key": "kootigers",
+    "name": "KOO Tigers",
+    "region": "kr",
+    "short": "KOO"
+  },
+  "roxtigers": {
+    "key": "kootigers",
+    "name": "ROX Tigers",
+    "region": "kr",
+    "short": "ROX"
+  },
+  "flashwolves": {
+    "key": "flashwolves",
+    "name": "Flash Wolves",
+    "region": "sea",
+    "short": "FW"
+  },
+  "ktrolster": {
+    "key": "ktrolster",
+    "name": "KT Rolster",
+    "region": "kr",
+    "short": "KT"
+  },
+  "origen": {
+    "key": "origen",
+    "name": "Origen",
+    "region": "eu",
+    "short": "OG"
+  },
+  "bangkoktitans": {
+    "key": "bangkoktitans",
+    "name": "Bangkok Titans",
+    "region": "iwc",
+    "short": "BKT"
+  },
+  "paingaming": {
+    "key": "paingaming",
+    "name": "PaiN Gaming",
+    "region": "iwc",
+    "short": "PNG"
+  },
+  "g2esports": {
+    "key": "g2esports",
+    "name": "G2 Esports",
+    "region": "eu",
+    "short": "G2"
+  },
+  "imay": {
+    "key": "imay",
+    "name": "I May",
+    "region": "cn",
+    "short": "IM"
+  },
+  "royalnevergiveup": {
+    "key": "royalnevergiveup",
+    "name": "Royal Never Give Up",
+    "region": "cn",
+    "short": "RNG??"
+  },
+  "samsunggalaxy": {
+    "key": "samsunggalaxy",
+    "name": "Samsung Galaxy",
+    "region": "kr",
+    "short": "SSG"
+  },
+  "albusnoxluna": {
+    "key": "albusnoxluna",
+    "name": "Albus NoX Luna",
+    "region": "iwc",
+    "short": "ANX"
+  },
+  "intzesports": {
+    "key": "intzesports",
+    "name": "INTZ e-Sports",
+    "region": "iwc",
+    "short": "ITZ"
+  },
+  "splyce": {
+    "key": "splyce",
+    "name": "Splyce",
+    "region": "eu",
+    "short": "SPY"
+  }
+}

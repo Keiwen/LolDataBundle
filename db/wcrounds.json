@@ -1,0 +1,244 @@
+{
+  "2011": {
+    "groupa2011": {
+      "key": "groupa2011",
+      "season": "2011",
+      "groupqualifcount": 1,
+      "grouppendcount": 2,
+      "name": "Group A"
+    },
+    "groupb2011": {
+      "key": "groupb2011",
+      "season": "2011",
+      "groupqualifcount": 1,
+      "grouppendcount": 2,
+      "name": "Group B"
+    },
+    "relegation2011": {
+      "key": "relegation2011",
+      "season": "2011",
+      "bestof": 3,
+      "name": "Relegation round"
+    },
+    "fifthplace2011": {
+      "key": "fifthplace2011",
+      "season": "2011",
+      "bestof": 1,
+      "name": "Fifth place match"
+    },
+    "semifinals2011": {
+      "key": "semifinals2011",
+      "season": "2011",
+      "bestof": 3,
+      "name": "Semi-Finals"
+    },
+    "finals2011": {
+      "key": "finals2011",
+      "season": "2011",
+      "bestof": 3,
+      "name": "Finals"
+    },
+    "grandfinal2011": {
+      "key": "grandfinal2011",
+      "season": "2011",
+      "bestof": 3,
+      "name": "Grand Final"
+    }
+  },
+  "2012": {
+    "groupa2012": {
+      "key": "groupa2012",
+      "season": "2012",
+      "groupqualifcount": 2,
+      "name": "Group A"
+    },
+    "groupb2012": {
+      "key": "groupb2012",
+      "season": "2012",
+      "groupqualifcount": 2,
+      "name": "Group B"
+    },
+    "quarterfinals2012": {
+      "key": "quarterfinals2012",
+      "season": "2012",
+      "bestof": 3,
+      "name": "Quarterfinals"
+    },
+    "semifinals2012": {
+      "key": "semifinals2012",
+      "season": "2012",
+      "bestof": 3,
+      "name": "Semifinals"
+    },
+    "finals2012": {
+      "key": "finals2012",
+      "season": "2012",
+      "bestof": 5,
+      "name": "Finals"
+    }
+  },
+  "2013": {
+    "groupa2013": {
+      "key": "groupa2013",
+      "season": "2013",
+      "groupqualifcount": 2,
+      "name": "Group A"
+    },
+    "groupb2013": {
+      "key": "groupb2013",
+      "season": "2013",
+      "groupqualifcount": 2,
+      "name": "Group B"
+    },
+    "quarterfinals2013": {
+      "key": "quarterfinals2013",
+      "season": "2013",
+      "bestof": 3,
+      "name": "Quarterfinals"
+    },
+    "semifinals2013": {
+      "key": "semifinals2013",
+      "season": "2013",
+      "bestof": 5,
+      "name": "Semifinals"
+    },
+    "finals2013": {
+      "key": "finals2013",
+      "season": "2013",
+      "bestof": 5,
+      "name": "Finals"
+    }
+  },
+  "2014": {
+    "groupa2014": {
+      "key": "groupa2014",
+      "season": "2014",
+      "groupqualifcount": 2,
+      "name": "Group A"
+    },
+    "groupb2014": {
+      "key": "groupb2014",
+      "season": "2014",
+      "groupqualifcount": 2,
+      "name": "Group B"
+    },
+    "groupc2014": {
+      "key": "groupc2014",
+      "season": "2014",
+      "groupqualifcount": 2,
+      "name": "Group C"
+    },
+    "groupd2014": {
+      "key": "groupd2014",
+      "season": "2014",
+      "groupqualifcount": 2,
+      "name": "Group D"
+    },
+    "quarterfinals2014": {
+      "key": "quarterfinals2014",
+      "season": "2014",
+      "bestof": 5,
+      "name": "Quarterfinals"
+    },
+    "semifinals2014": {
+      "key": "semifinals2014",
+      "season": "2014",
+      "bestof": 5,
+      "name": "Semifinals"
+    },
+    "finals2014": {
+      "key": "finals2014",
+      "season": "2014",
+      "bestof": 5,
+      "name": "Finals"
+    }
+  },
+  "2015": {
+    "groupa2015": {
+      "key": "groupa2015",
+      "season": "2015",
+      "groupqualifcount": 2,
+      "name": "Group A"
+    },
+    "groupb2015": {
+      "key": "groupb2015",
+      "season": "2015",
+      "groupqualifcount": 2,
+      "name": "Group B"
+    },
+    "groupc2015": {
+      "key": "groupc2015",
+      "season": "2015",
+      "groupqualifcount": 2,
+      "name": "Group C"
+    },
+    "groupd2015": {
+      "key": "groupd2015",
+      "season": "2015",
+      "groupqualifcount": 2,
+      "name": "Group D"
+    },
+    "quarterfinals2015": {
+      "key": "quarterfinals2015",
+      "season": "2015",
+      "bestof": 5,
+      "name": "Quarterfinals"
+    },
+    "semifinals2015": {
+      "key": "semifinals2015",
+      "season": "2015",
+      "bestof": 5,
+      "name": "Semifinals"
+    },
+    "finals2015": {
+      "key": "finals2015",
+      "season": "2015",
+      "bestof": 5,
+      "name": "Finals"
+    }
+  },
+  "2016": {
+    "groupa2016": {
+      "key": "groupa2016",
+      "season": "2016",
+      "groupqualifcount": 2,
+      "name": "Group A"
+    },
+    "groupb2016": {
+      "key": "groupb2016",
+      "season": "2016",
+      "groupqualifcount": 2,
+      "name": "Group B"
+    },
+    "groupc2016": {
+      "key": "groupc2016",
+      "season": "2016",
+      "groupqualifcount": 2,
+      "name": "Group C"
+    },
+    "groupd2016": {
+      "key": "groupd2016",
+      "season": "2016",
+      "groupqualifcount": 2,
+      "name": "Group D"
+    },
+    "quarterfinals2016": {
+      "key": "quarterfinals2016",
+      "season": "2016",
+      "bestof": 5,
+      "name": "Quarterfinals"
+    },
+    "semifinals2016": {
+      "key": "semifinals2016",
+      "season": "2016",
+      "bestof": 5,
+      "name": "Semifinals"
+    },
+    "finals2016": {
+      "key": "finals2016",
+      "season": "2016",
+      "bestof": 5,
+      "name": "Finals"
+    }
+  }
+}
