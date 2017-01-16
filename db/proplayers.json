@@ -1,0 +1,1874 @@
+{
+  "soaz": {
+    "key": "soaz",
+    "pseudo": "sOAZ",
+    "country": "FR",
+    "role": "top"
+  },
+  "linak": {
+    "key": "linak",
+    "pseudo": "Linak",
+    "country": "FR",
+    "role": "jun"
+  },
+  "moma": {
+    "key": "moma",
+    "pseudo": "MoMa",
+    "country": "DE",
+    "role": "mid"
+  },
+  "yellowstar": {
+    "key": "yellowstar",
+    "pseudo": "YellOwStaR",
+    "country": "FR",
+    "role": "sup,adc"
+  },
+  "kujaa": {
+    "key": "kujaa",
+    "pseudo": "kujaa",
+    "country": "FR",
+    "role": "sup"
+  },
+  "hotshotgg": {
+    "key": "hotshotgg",
+    "pseudo": "HotshotGG",
+    "country": "CA",
+    "role": "top"
+  },
+  "saintvicious": {
+    "key": "saintvicious",
+    "pseudo": "Saintvicious",
+    "country": "US",
+    "role": "jun"
+  },
+  "bigfatlp": {
+    "key": "bigfatlp",
+    "pseudo": "Bigfatlp",
+    "country": "CA",
+    "role": "mid"
+  },
+  "chauster": {
+    "key": "chauster",
+    "pseudo": "chauster",
+    "country": "US",
+    "role": "adc"
+  },
+  "elementz": {
+    "key": "elementz",
+    "pseudo": "Elementz",
+    "country": "CA",
+    "role": "sup"
+  },
+  "westrice": {
+    "key": "westrice",
+    "pseudo": "Westrice",
+    "country": "US",
+    "role": "top"
+  },
+  "dandinh": {
+    "key": "dandinh",
+    "pseudo": "Dan Dinh",
+    "country": "US",
+    "role": "jun"
+  },
+  "salce": {
+    "key": "salce",
+    "pseudo": "Salce",
+    "country": "US",
+    "role": "mid"
+  },
+  "dyrus": {
+    "key": "dyrus",
+    "pseudo": "Dyrus",
+    "country": "US",
+    "role": "top"
+  },
+  "doublelift": {
+    "key": "doublelift",
+    "pseudo": "Doublelift",
+    "country": "US",
+    "role": "adc,sup"
+  },
+  "xpeke": {
+    "key": "xpeke",
+    "pseudo": "xPeke",
+    "country": "SP",
+    "role": "mid,top"
+  },
+  "shushei": {
+    "key": "shushei",
+    "pseudo": "Shushei",
+    "country": "PL",
+    "role": "mid"
+  },
+  "cyanide": {
+    "key": "cyanide",
+    "pseudo": "Cyanide",
+    "country": "FI",
+    "role": "jun"
+  },
+  "lamia": {
+    "key": "lamia",
+    "pseudo": "Lamia",
+    "country": "DE",
+    "role": "adc"
+  },
+  "mellisan": {
+    "key": "mellisan",
+    "pseudo": "Mellisan",
+    "country": "DE",
+    "role": "sup"
+  },
+  "wewillfailer": {
+    "key": "wewillfailer",
+    "pseudo": "wewillfailer",
+    "country": "BE",
+    "role": "top"
+  },
+  "kev1n": {
+    "key": "kev1n",
+    "pseudo": "Kev1n",
+    "country": "DE",
+    "role": "top"
+  },
+  "zylor": {
+    "key": "zylor",
+    "pseudo": "Zylor",
+    "country": "DE",
+    "role": "jun"
+  },
+  "reyk": {
+    "key": "reyk",
+    "pseudo": "Reyk",
+    "country": "DE",
+    "role": "mid"
+  },
+  "candypanda": {
+    "key": "candypanda",
+    "pseudo": "Candy Panda",
+    "country": "DE",
+    "role": "adc"
+  },
+  "nyph": {
+    "key": "nyph",
+    "pseudo": "Nyph",
+    "country": "DE",
+    "role": "sup"
+  },
+  "vy": {
+    "key": "vy",
+    "pseudo": "vy",
+    "country": "PH",
+    "role": "top"
+  },
+  "dabe": {
+    "key": "dabe",
+    "pseudo": "dabe",
+    "country": "PH",
+    "role": "jun"
+  },
+  "wormy": {
+    "key": "wormy",
+    "pseudo": "wormy",
+    "country": "PH",
+    "role": "mid"
+  },
+  "iddo": {
+    "key": "iddo",
+    "pseudo": "iddo",
+    "country": "PH",
+    "role": "adc"
+  },
+  "gibo": {
+    "key": "gibo",
+    "pseudo": "gibo",
+    "country": "PH",
+    "role": "sup"
+  },
+  "therainman": {
+    "key": "therainman",
+    "pseudo": "TheRainMan",
+    "country": "US",
+    "role": "top"
+  },
+  "theoddone": {
+    "key": "theoddone",
+    "pseudo": "TheOddOne",
+    "country": "CA",
+    "role": "jun"
+  },
+  "reginald": {
+    "key": "reginald",
+    "pseudo": "Reginald",
+    "country": "US",
+    "role": "mid"
+  },
+  "chaox": {
+    "key": "chaox",
+    "pseudo": "Chaox",
+    "country": "CA",
+    "role": "adc"
+  },
+  "xpecial": {
+    "key": "xpecial",
+    "pseudo": "Xpecial",
+    "country": "US",
+    "role": "sup"
+  },
+  "vech": {
+    "key": "vech",
+    "pseudo": "Vech",
+    "country": "SG",
+    "role": "top"
+  },
+  "radeon6870": {
+    "key": "radeon6870",
+    "pseudo": "Radeon6870",
+    "country": "SG",
+    "role": "jun"
+  },
+  "axion": {
+    "key": "axion",
+    "pseudo": "Axion",
+    "country": "SG",
+    "role": "mid"
+  },
+  "d4rkness": {
+    "key": "d4rkness",
+    "pseudo": "d4rkness",
+    "country": "SG",
+    "role": "adc"
+  },
+  "intrigued": {
+    "key": "intrigued",
+    "pseudo": "iNtrigueD",
+    "country": "SG",
+    "role": "sup"
+  },
+  "voboy": {
+    "key": "voboy",
+    "pseudo": "Voboy",
+    "country": "US",
+    "role": "top"
+  },
+  "crumbzz": {
+    "key": "crumbzz",
+    "pseudo": "Crumbzz",
+    "country": "VE",
+    "role": "top"
+  },
+  "iwilldominate": {
+    "key": "iwilldominate",
+    "pseudo": "IWillDominate",
+    "country": "US",
+    "role": "jun"
+  },
+  "scarra": {
+    "key": "scarra",
+    "pseudo": "Scarra",
+    "country": "US",
+    "role": "mid"
+  },
+  "imaqtpie": {
+    "key": "imaqtpie",
+    "pseudo": "imaqtpie",
+    "country": "US",
+    "role": "adc"
+  },
+  "patoy": {
+    "key": "patoy",
+    "pseudo": "patoy",
+    "country": "US",
+    "role": "sup"
+  },
+  "darien": {
+    "key": "darien",
+    "pseudo": "Darien",
+    "country": "RU",
+    "role": "top"
+  },
+  "diamondprox": {
+    "key": "diamondprox",
+    "pseudo": "Diamondprox",
+    "country": "RU",
+    "role": "jun"
+  },
+  "alexich": {
+    "key": "alexich",
+    "pseudo": "Alex Ich",
+    "country": "RU",
+    "role": "mid"
+  },
+  "genja": {
+    "key": "genja",
+    "pseudo": "Genja",
+    "country": "RU",
+    "role": "adc"
+  },
+  "gosupepper": {
+    "key": "gosupepper",
+    "pseudo": "GoSu Pepper",
+    "country": "AM",
+    "role": "sup"
+  },
+  "araneae": {
+    "key": "araneae",
+    "pseudo": "Araneae",
+    "country": "SP",
+    "role": "jun"
+  },
+  "ocelote": {
+    "key": "ocelote",
+    "pseudo": "ocelote",
+    "country": "SP",
+    "role": "mid"
+  },
+  "snoopeh": {
+    "key": "snoopeh",
+    "pseudo": "Snoopeh",
+    "country": "UK",
+    "role": "jun"
+  },
+  "froggen": {
+    "key": "froggen",
+    "pseudo": "Froggen",
+    "country": "DK",
+    "role": "mid"
+  },
+  "yellowpete": {
+    "key": "yellowpete",
+    "pseudo": "yellowpete",
+    "country": "DE",
+    "role": "adc"
+  },
+  "krepo": {
+    "key": "krepo",
+    "pseudo": "Krepo",
+    "country": "BE",
+    "role": "sup"
+  },
+  "stanley": {
+    "key": "stanley",
+    "pseudo": "Stanley",
+    "country": "TW",
+    "role": "top"
+  },
+  "lilballz": {
+    "key": "lilballz",
+    "pseudo": "Lilballz",
+    "country": "TW",
+    "role": "jun"
+  },
+  "toyz": {
+    "key": "toyz",
+    "pseudo": "Toyz",
+    "country": "HK",
+    "role": "mid"
+  },
+  "bebe": {
+    "key": "bebe",
+    "pseudo": "bebe",
+    "country": "TW",
+    "role": "adc"
+  },
+  "mistake": {
+    "key": "mistake",
+    "pseudo": "MiSTakE",
+    "country": "TW",
+    "role": "sup"
+  },
+  "shy": {
+    "key": "shy",
+    "pseudo": "Shy",
+    "country": "KR",
+    "role": "top"
+  },
+  "cloudtemplar": {
+    "key": "cloudtemplar",
+    "pseudo": "CloudTemplar",
+    "country": "KR",
+    "role": "jun"
+  },
+  "rapidstar": {
+    "key": "rapidstar",
+    "pseudo": "RapidStar",
+    "country": "KR",
+    "role": "mid"
+  },
+  "woong": {
+    "key": "woong",
+    "pseudo": "Woong",
+    "country": "KR",
+    "role": "adc"
+  },
+  "madlife": {
+    "key": "madlife",
+    "pseudo": "MadLife",
+    "country": "KR",
+    "role": "sup"
+  },
+  "maknoon": {
+    "key": "maknoon",
+    "pseudo": "MaKNooN",
+    "country": "KR",
+    "role": "top"
+  },
+  "watch": {
+    "key": "watch",
+    "pseudo": "Watch",
+    "country": "KR",
+    "role": "jun"
+  },
+  "ssong": {
+    "key": "ssong",
+    "pseudo": "SSONG",
+    "country": "KR",
+    "role": "mid"
+  },
+  "pray": {
+    "key": "pray",
+    "pseudo": "PraY",
+    "country": "KR",
+    "role": "adc"
+  },
+  "cain": {
+    "key": "cain",
+    "pseudo": "Cain",
+    "country": "KR",
+    "role": "sup"
+  },
+  "caomei": {
+    "key": "caomei",
+    "pseudo": "Caomei",
+    "country": "CN",
+    "role": "top"
+  },
+  "clearlove": {
+    "key": "clearlove",
+    "pseudo": "ClearLove",
+    "country": "CN",
+    "role": "jun"
+  },
+  "misaya": {
+    "key": "misaya",
+    "pseudo": "Misaya",
+    "country": "CN",
+    "role": "mid"
+  },
+  "weixiao": {
+    "key": "weixiao",
+    "pseudo": "Weixiao",
+    "country": "CN",
+    "role": "adc"
+  },
+  "fzzf": {
+    "key": "fzzf",
+    "pseudo": "FZZF",
+    "country": "CN",
+    "role": "sup"
+  },
+  "pdd": {
+    "key": "pdd",
+    "pseudo": "PDD",
+    "country": "CN",
+    "role": "top"
+  },
+  "illusion": {
+    "key": "illusion",
+    "pseudo": "illuSioN",
+    "country": "CN",
+    "role": "jun"
+  },
+  "zzitai": {
+    "key": "zzitai",
+    "pseudo": "Zzitai",
+    "country": "CN",
+    "role": "top,mid"
+  },
+  "kid": {
+    "key": "kid",
+    "pseudo": "Kid",
+    "country": "CN",
+    "role": "adc"
+  },
+  "xiaoxiao": {
+    "key": "xiaoxiao",
+    "pseudo": "XiaoXiao",
+    "country": "CN",
+    "role": "sup"
+  },
+  "qtv": {
+    "key": "qtv",
+    "pseudo": "QTV",
+    "country": "VN",
+    "role": "top"
+  },
+  "violet": {
+    "key": "violet",
+    "pseudo": "Violet",
+    "country": "VN",
+    "role": "jun"
+  },
+  "nixwater": {
+    "key": "nixwater",
+    "pseudo": "NIXWATER",
+    "country": "VN",
+    "role": "mid"
+  },
+  "archie": {
+    "key": "archie",
+    "pseudo": "Archie",
+    "country": "VN",
+    "role": "adc"
+  },
+  "junie": {
+    "key": "junie",
+    "pseudo": "Junie",
+    "country": "VN",
+    "role": "sup"
+  },
+  "steak": {
+    "key": "steak",
+    "pseudo": "Steak",
+    "country": "TW",
+    "role": "top"
+  },
+  "winds": {
+    "key": "winds",
+    "pseudo": "Winds",
+    "country": "TW",
+    "role": "jun"
+  },
+  "maple": {
+    "key": "maple",
+    "pseudo": "Maple",
+    "country": "TW",
+    "role": "mid"
+  },
+  "nl": {
+    "key": "nl",
+    "pseudo": "NL",
+    "country": "TW",
+    "role": "adc"
+  },
+  "swordart": {
+    "key": "swordart",
+    "pseudo": "SwordArt",
+    "country": "TW",
+    "role": "sup"
+  },
+  "expession": {
+    "key": "expession",
+    "pseudo": "Expession",
+    "country": "KR",
+    "role": "top"
+  },
+  "nagne": {
+    "key": "nagne",
+    "pseudo": "Nagne",
+    "country": "KR",
+    "role": "mid"
+  },
+  "godlike": {
+    "key": "godlike",
+    "pseudo": "GoDlike",
+    "country": "CN",
+    "role": "top"
+  },
+  "lucky": {
+    "key": "lucky",
+    "pseudo": "Lucky",
+    "country": "CN",
+    "role": "jun"
+  },
+  "wh1t3zz": {
+    "key": "wh1t3zz",
+    "pseudo": "Wh1t3zZ",
+    "country": "HK",
+    "role": "mid"
+  },
+  "uzi": {
+    "key": "uzi",
+    "pseudo": "Uzi",
+    "country": "CN",
+    "role": "adc"
+  },
+  "tabe": {
+    "key": "tabe",
+    "pseudo": "Tabe",
+    "country": "HK",
+    "role": "sup"
+  },
+  "balls": {
+    "key": "balls",
+    "pseudo": "Balls",
+    "country": "US",
+    "role": "top"
+  },
+  "meteos": {
+    "key": "meteos",
+    "pseudo": "Meteos",
+    "country": "US",
+    "role": "jun"
+  },
+  "hai": {
+    "key": "hai",
+    "pseudo": "Hai",
+    "country": "US",
+    "role": "jun,mid"
+  },
+  "sneaky": {
+    "key": "sneaky",
+    "pseudo": "Sneaky",
+    "country": "US",
+    "role": "adc"
+  },
+  "lemonnation": {
+    "key": "lemonnation",
+    "pseudo": "LemonNation",
+    "country": "US",
+    "role": "sup"
+  },
+  "snoy": {
+    "key": "snoy",
+    "pseudo": "Snoy",
+    "country": "PH",
+    "role": "top"
+  },
+  "kaigu": {
+    "key": "kaigu",
+    "pseudo": "Kaigu",
+    "country": "PH",
+    "role": "jun"
+  },
+  "yume": {
+    "key": "yume",
+    "pseudo": "Yume",
+    "country": "PH",
+    "role": "mid"
+  },
+  "exo": {
+    "key": "exo",
+    "pseudo": "Exo",
+    "country": "PH",
+    "role": "adc"
+  },
+  "tgee": {
+    "key": "tgee",
+    "pseudo": "Tgee",
+    "country": "PH",
+    "role": "sup"
+  },
+  "wildturtle": {
+    "key": "wildturtle",
+    "pseudo": "WildTurtle",
+    "country": "CA",
+    "role": "adc"
+  },
+  "sychosid": {
+    "key": "sychosid",
+    "pseudo": "Sycho Sid",
+    "country": "US",
+    "role": "top"
+  },
+  "xmithie": {
+    "key": "xmithie",
+    "pseudo": "Xmithie",
+    "country": "PH",
+    "role": "jun"
+  },
+  "mancloud": {
+    "key": "mancloud",
+    "pseudo": "mancloud",
+    "country": "US",
+    "role": "mid"
+  },
+  "zuna": {
+    "key": "zuna",
+    "pseudo": "Zuna",
+    "country": "US",
+    "role": "adc"
+  },
+  "bloodwater": {
+    "key": "bloodwater",
+    "pseudo": "BloodWater",
+    "country": "BG",
+    "role": "sup"
+  },
+  "nbs": {
+    "key": "nbs",
+    "pseudo": "Nbs",
+    "country": "LT",
+    "role": "top"
+  },
+  "alunir": {
+    "key": "alunir",
+    "pseudo": "Alunir",
+    "country": "LT",
+    "role": "jun"
+  },
+  "mazzerin": {
+    "key": "mazzerin",
+    "pseudo": "Mazzerin",
+    "country": "LT",
+    "role": "mid"
+  },
+  "deadlybrother": {
+    "key": "deadlybrother",
+    "pseudo": "DeadlyBrother",
+    "country": "LT",
+    "role": "adc"
+  },
+  "inspirro": {
+    "key": "inspirro",
+    "pseudo": "Inspirro",
+    "country": "LT",
+    "role": "sup"
+  },
+  "looper": {
+    "key": "looper",
+    "pseudo": "Looper",
+    "country": "KR",
+    "role": "top"
+  },
+  "dandy": {
+    "key": "dandy",
+    "pseudo": "DanDy",
+    "country": "KR",
+    "role": "jun"
+  },
+  "dade": {
+    "key": "dade",
+    "pseudo": "dade",
+    "country": "KR",
+    "role": "mid"
+  },
+  "imp": {
+    "key": "imp",
+    "pseudo": "imp",
+    "country": "KR",
+    "role": "adc"
+  },
+  "mata": {
+    "key": "mata",
+    "pseudo": "Mata",
+    "country": "KR",
+    "role": "sup"
+  },
+  "impact": {
+    "key": "impact",
+    "pseudo": "Impact",
+    "country": "KR",
+    "role": "top"
+  },
+  "bengi": {
+    "key": "bengi",
+    "pseudo": "bengi",
+    "country": "KR",
+    "role": "jun"
+  },
+  "faker": {
+    "key": "faker",
+    "pseudo": "Faker",
+    "country": "KR",
+    "role": "mid"
+  },
+  "piglet": {
+    "key": "piglet",
+    "pseudo": "Piglet",
+    "country": "KR",
+    "role": "adc"
+  },
+  "poohmandu": {
+    "key": "poohmandu",
+    "pseudo": "PoohManDu",
+    "country": "KR",
+    "role": "sup"
+  },
+  "puszu": {
+    "key": "puszu",
+    "pseudo": "Puszu",
+    "country": "EE",
+    "role": "adc"
+  },
+  "zorozero": {
+    "key": "zorozero",
+    "pseudo": "Zorozero",
+    "country": "DK",
+    "role": "top"
+  },
+  "dexter1": {
+    "key": "dexter1",
+    "pseudo": "dexter1",
+    "country": "DE",
+    "role": "jun"
+  },
+  "nukeduck": {
+    "key": "nukeduck",
+    "pseudo": "Nukeduck",
+    "country": "NO",
+    "role": "mid"
+  },
+  "tabzz": {
+    "key": "tabzz",
+    "pseudo": "Tabzz",
+    "country": "NL",
+    "role": "adc"
+  },
+  "mithy": {
+    "key": "mithy",
+    "pseudo": "Mithy",
+    "country": "SP",
+    "role": "sup"
+  },
+  "voidle": {
+    "key": "voidle",
+    "pseudo": "Voidle",
+    "country": "EE",
+    "role": "sup"
+  },
+  "gogoing": {
+    "key": "gogoing",
+    "pseudo": "Gogoing",
+    "country": "CN",
+    "role": "top"
+  },
+  "lovelin": {
+    "key": "lovelin",
+    "pseudo": "LoveLing,LoveLin",
+    "country": "CN",
+    "role": "jun"
+  },
+  "cool": {
+    "key": "cool",
+    "pseudo": "Cool",
+    "country": "CN",
+    "role": "mid"
+  },
+  "san": {
+    "key": "san",
+    "pseudo": "san",
+    "country": "CN",
+    "role": "adc"
+  },
+  "bigpomelo": {
+    "key": "bigpomelo",
+    "pseudo": "bigpomelo",
+    "country": "CN",
+    "role": "sup"
+  },
+  "amazing": {
+    "key": "amazing",
+    "pseudo": "Amazing",
+    "country": "DE",
+    "role": "jun"
+  },
+  "bjergsen": {
+    "key": "bjergsen",
+    "pseudo": "Bjergsen",
+    "country": "DK",
+    "role": "mid"
+  },
+  "lustboy": {
+    "key": "lustboy",
+    "pseudo": "Lustboy",
+    "country": "KR",
+    "role": "sup"
+  },
+  "wickd": {
+    "key": "wickd",
+    "pseudo": "Wickd",
+    "country": "DK",
+    "role": "top"
+  },
+  "shook": {
+    "key": "shook",
+    "pseudo": "Shook",
+    "country": "NL",
+    "role": "jun"
+  },
+  "kazmitch": {
+    "key": "kazmitch",
+    "pseudo": "Kazmitch",
+    "country": "CZ",
+    "role": "sup"
+  },
+  "koro1": {
+    "key": "koro1",
+    "pseudo": "Koro1",
+    "country": "CN",
+    "role": "top"
+  },
+  "u": {
+    "key": "u",
+    "pseudo": "U",
+    "country": "CN",
+    "role": "mid"
+  },
+  "namei": {
+    "key": "namei",
+    "pseudo": "NaMei",
+    "country": "CN",
+    "role": "adc"
+  },
+  "fireloli": {
+    "key": "fireloli",
+    "pseudo": "Fireloli",
+    "country": "CN",
+    "role": "jun"
+  },
+  "acorn": {
+    "key": "acorn",
+    "pseudo": "Acorn",
+    "country": "KR",
+    "role": "top"
+  },
+  "spirit": {
+    "key": "spirit",
+    "pseudo": "Spirit",
+    "country": "KR",
+    "role": "jun"
+  },
+  "deft": {
+    "key": "deft",
+    "pseudo": "Deft",
+    "country": "KR",
+    "role": "adc"
+  },
+  "heart": {
+    "key": "heart",
+    "pseudo": "Heart",
+    "country": "KR",
+    "role": "sup"
+  },
+  "gamsu": {
+    "key": "gamsu",
+    "pseudo": "Gamsu",
+    "country": "KR",
+    "role": "top"
+  },
+  "rekkles": {
+    "key": "rekkles",
+    "pseudo": "Rekkles",
+    "country": "SE",
+    "role": "adc"
+  },
+  "cola": {
+    "key": "cola",
+    "pseudo": "Cola",
+    "country": "CN",
+    "role": "top"
+  },
+  "insec": {
+    "key": "insec",
+    "pseudo": "inSec",
+    "country": "KR",
+    "role": "jun"
+  },
+  "corn": {
+    "key": "corn",
+    "pseudo": "Corn",
+    "country": "CN",
+    "role": "mid"
+  },
+  "zero": {
+    "key": "zero",
+    "pseudo": "Zero",
+    "country": "KR",
+    "role": "sup"
+  },
+  "laopi": {
+    "key": "laopi",
+    "pseudo": "LaoPi",
+    "country": "HK",
+    "role": "sup"
+  },
+  "cloud": {
+    "key": "cloud",
+    "pseudo": "Cloud",
+    "country": "CN",
+    "role": "sup"
+  },
+  "dada7": {
+    "key": "dada7",
+    "pseudo": "DaDa7",
+    "country": "CN",
+    "role": "sup"
+  },
+  "pawn": {
+    "key": "pawn",
+    "pseudo": "PawN",
+    "country": "KR",
+    "role": "mid"
+  },
+  "skatch": {
+    "key": "skatch",
+    "pseudo": "Skatch",
+    "country": "KR",
+    "role": "adc"
+  },
+  "save": {
+    "key": "save",
+    "pseudo": "Save",
+    "country": "KR",
+    "role": "top"
+  },
+  "ggoong": {
+    "key": "ggoong",
+    "pseudo": "Ggoong",
+    "country": "KR",
+    "role": "mid"
+  },
+  "zefa": {
+    "key": "zefa",
+    "pseudo": "Zefa",
+    "country": "KR",
+    "role": "adc"
+  },
+  "gorilla": {
+    "key": "gorilla",
+    "pseudo": "Gorilla",
+    "country": "KR",
+    "role": "sup"
+  },
+  "pure": {
+    "key": "pure",
+    "pseudo": "Pure",
+    "country": "KR",
+    "role": "sup"
+  },
+  "achie": {
+    "key": "achie",
+    "pseudo": "achie",
+    "country": "TW",
+    "role": "top"
+  },
+  "morning": {
+    "key": "morning",
+    "pseudo": "Morning",
+    "country": "TW",
+    "role": "mid"
+  },
+  "jay": {
+    "key": "jay",
+    "pseudo": "Jay",
+    "country": "TW",
+    "role": "sup"
+  },
+  "chawy": {
+    "key": "chawy",
+    "pseudo": "Chawy",
+    "country": "SG",
+    "role": "mid"
+  },
+  "prydz": {
+    "key": "prydz",
+    "pseudo": "Prydz",
+    "country": "TW",
+    "role": "top"
+  },
+  "naz": {
+    "key": "naz",
+    "pseudo": "Naz",
+    "country": "TW",
+    "role": "jun"
+  },
+  "westdoor": {
+    "key": "westdoor",
+    "pseudo": "Westdoor",
+    "country": "TW",
+    "role": "mid"
+  },
+  "garnetdevil": {
+    "key": "garnetdevil",
+    "pseudo": "GarnetDevil",
+    "country": "TW",
+    "role": "adc"
+  },
+  "greentea": {
+    "key": "greentea",
+    "pseudo": "GreenTea",
+    "country": "TW",
+    "role": "sup"
+  },
+  "ackerman": {
+    "key": "ackerman",
+    "pseudo": "ackerman",
+    "country": "CN",
+    "role": "top"
+  },
+  "noname": {
+    "key": "noname",
+    "pseudo": "NoName",
+    "country": "CN",
+    "role": "jun"
+  },
+  "xiaoweixiao": {
+    "key": "xiaoweixiao",
+    "pseudo": "XiaoWeiXiao",
+    "country": "CN",
+    "role": "mid"
+  },
+  "vasilii": {
+    "key": "vasilii",
+    "pseudo": "Vasilii",
+    "country": "CN",
+    "role": "adc"
+  },
+  "mor": {
+    "key": "mor",
+    "pseudo": "Mor",
+    "country": "CN",
+    "role": "sup"
+  },
+  "fredy122": {
+    "key": "fredy122",
+    "pseudo": "fredy122",
+    "country": "UK",
+    "role": "top"
+  },
+  "svenskeren": {
+    "key": "svenskeren",
+    "pseudo": "Svenskeren",
+    "country": "DK",
+    "role": "jun"
+  },
+  "jesiz": {
+    "key": "jesiz",
+    "pseudo": "Jesiz",
+    "country": "DK",
+    "role": "mid"
+  },
+  "nrated": {
+    "key": "nrated",
+    "pseudo": "nRated",
+    "country": "DE",
+    "role": "sup"
+  },
+  "gilius": {
+    "key": "gilius",
+    "pseudo": "Gilius",
+    "country": "DE",
+    "role": "jun"
+  },
+  "fabulous": {
+    "key": "fabulous",
+    "pseudo": "fabulous",
+    "country": "TR",
+    "role": "top"
+  },
+  "crystalmeth": {
+    "key": "crystalmeth",
+    "pseudo": "Crystal Meth",
+    "country": "TR",
+    "role": "jun"
+  },
+  "naru": {
+    "key": "naru",
+    "pseudo": "Naru",
+    "country": "TR",
+    "role": "mid"
+  },
+  "holyphoenix": {
+    "key": "holyphoenix",
+    "pseudo": "HolyPhoenix",
+    "country": "TR",
+    "role": "adc"
+  },
+  "touch": {
+    "key": "touch",
+    "pseudo": "Touch",
+    "country": "NO",
+    "role": "sup"
+  },
+  "holythoth": {
+    "key": "holythoth",
+    "pseudo": "Holythoth",
+    "country": "TR",
+    "role": "sup"
+  },
+  "lep": {
+    "key": "lep",
+    "pseudo": "LEP",
+    "country": "BR",
+    "role": "top"
+  },
+  "danagorn": {
+    "key": "danagorn",
+    "pseudo": "Danagorn",
+    "country": "BR",
+    "role": "jun"
+  },
+  "tinowns": {
+    "key": "tinowns",
+    "pseudo": "TinOwns",
+    "country": "BR",
+    "role": "mid"
+  },
+  "minerva": {
+    "key": "minerva",
+    "pseudo": "Minerva",
+    "country": "BR",
+    "role": "adc"
+  },
+  "dans": {
+    "key": "dans",
+    "pseudo": "dans",
+    "country": "BR",
+    "role": "sup"
+  },
+  "bit1": {
+    "key": "bit1",
+    "pseudo": "bit1",
+    "country": "BR",
+    "role": "jun"
+  },
+  "zionspartan": {
+    "key": "zionspartan",
+    "pseudo": "Darshan,ZionSpartan",
+    "country": "CA",
+    "role": "top"
+  },
+  "pobelter": {
+    "key": "pobelter",
+    "pseudo": "Pobelter",
+    "country": "US",
+    "role": "mid"
+  },
+  "aphromoo": {
+    "key": "aphromoo",
+    "pseudo": "Aphromoo",
+    "country": "US",
+    "role": "sup"
+  },
+  "huhi": {
+    "key": "huhi",
+    "pseudo": "HuHi",
+    "country": "FR",
+    "role": "mid"
+  },
+  "huni": {
+    "key": "huni",
+    "pseudo": "Huni",
+    "country": "KR",
+    "role": "top"
+  },
+  "reignover": {
+    "key": "reignover",
+    "pseudo": "Reignover",
+    "country": "KR",
+    "role": "jun"
+  },
+  "febiven": {
+    "key": "febiven",
+    "pseudo": "Febiven",
+    "country": "NL",
+    "role": "mid"
+  },
+  "shlaya": {
+    "key": "shlaya",
+    "pseudo": "Shlaya",
+    "country": "FR",
+    "role": "mid"
+  },
+  "tbq": {
+    "key": "tbq",
+    "pseudo": "TBQ",
+    "country": "CN",
+    "role": "jun"
+  },
+  "godv": {
+    "key": "godv",
+    "pseudo": "GODV",
+    "country": "CN",
+    "role": "mid"
+  },
+  "pyl": {
+    "key": "pyl",
+    "pseudo": "Pyl",
+    "country": "CN",
+    "role": "sup"
+  },
+  "flame": {
+    "key": "flame",
+    "pseudo": "Flame",
+    "country": "KR",
+    "role": "top"
+  },
+  "xiaoxi": {
+    "key": "xiaoxi",
+    "pseudo": "xiaoxi",
+    "country": "CN",
+    "role": "jun"
+  },
+  "marin": {
+    "key": "marin",
+    "pseudo": "MaRin",
+    "country": "KR",
+    "role": "top"
+  },
+  "bang": {
+    "key": "bang",
+    "pseudo": "bang",
+    "country": "KR",
+    "role": "adc"
+  },
+  "wolf": {
+    "key": "wolf",
+    "pseudo": "Wolf",
+    "country": "KR",
+    "role": "sup"
+  },
+  "easyhoon": {
+    "key": "easyhoon",
+    "pseudo": "Easyhoon",
+    "country": "KR",
+    "role": "mid"
+  },
+  "santorin": {
+    "key": "santorin",
+    "pseudo": "Santorin",
+    "country": "DK",
+    "role": "jun"
+  },
+  "odoamne": {
+    "key": "odoamne",
+    "pseudo": "Odoamne",
+    "country": "RO",
+    "role": "top"
+  },
+  "loulex": {
+    "key": "loulex",
+    "pseudo": "loulex",
+    "country": "FR",
+    "role": "jun"
+  },
+  "ryu": {
+    "key": "ryu",
+    "pseudo": "Ryu",
+    "country": "KR",
+    "role": "mid"
+  },
+  "hjarnan": {
+    "key": "hjarnan",
+    "pseudo": "Hjarnan",
+    "country": "SE",
+    "role": "adc"
+  },
+  "kasing": {
+    "key": "kasing",
+    "pseudo": "kaSing",
+    "country": "UK",
+    "role": "sup"
+  },
+  "betongjocke": {
+    "key": "betongjocke",
+    "pseudo": "BetongJocke",
+    "country": "SE",
+    "role": "jun"
+  },
+  "amazingj": {
+    "key": "amazingj",
+    "pseudo": "AmazinJ",
+    "country": "HK",
+    "role": "top"
+  },
+  "meiko": {
+    "key": "meiko",
+    "pseudo": "Meiko",
+    "country": "CN",
+    "role": "sup"
+  },
+  "smeb": {
+    "key": "smeb",
+    "pseudo": "Smeb",
+    "country": "KR",
+    "role": "top"
+  },
+  "hojin": {
+    "key": "hojin",
+    "pseudo": "Hojin",
+    "country": "KR",
+    "role": "jun"
+  },
+  "kuro": {
+    "key": "kuro",
+    "pseudo": "KurO",
+    "country": "KR",
+    "role": "mid"
+  },
+  "wisdom": {
+    "key": "wisdom",
+    "pseudo": "Wisdom",
+    "country": "KR",
+    "role": "jun"
+  },
+  "ziv": {
+    "key": "ziv",
+    "pseudo": "Ziv",
+    "country": "TW",
+    "role": "top"
+  },
+  "mountain": {
+    "key": "mountain",
+    "pseudo": "Mountain",
+    "country": "TW",
+    "role": "jun"
+  },
+  "an": {
+    "key": "an",
+    "pseudo": "AN",
+    "country": "TW",
+    "role": "adc"
+  },
+  "albis": {
+    "key": "albis",
+    "pseudo": "Albis",
+    "country": "TW",
+    "role": "sup"
+  },
+  "karsa": {
+    "key": "karsa",
+    "pseudo": "Karsa",
+    "country": "TW",
+    "role": "jun"
+  },
+  "kkramer": {
+    "key": "kkramer",
+    "pseudo": "Kkramer",
+    "country": "KR",
+    "role": "adc"
+  },
+  "kakao": {
+    "key": "kakao",
+    "pseudo": "KaKAO",
+    "country": "KR",
+    "role": "jun"
+  },
+  "rookie": {
+    "key": "rookie",
+    "pseudo": "Rookie",
+    "country": "KR",
+    "role": "mid"
+  },
+  "kid": {
+    "key": "kid",
+    "pseudo": "Kid",
+    "country": "CN",
+    "role": "adc"
+  },
+  "kitties": {
+    "key": "kitties",
+    "pseudo": "Kitties",
+    "country": "CN",
+    "role": "sup"
+  },
+  "time": {
+    "key": "time",
+    "pseudo": "Time",
+    "country": "CN",
+    "role": "adc"
+  },
+  "ssumday": {
+    "key": "ssumday",
+    "pseudo": "ssumday",
+    "country": "KR",
+    "role": "top"
+  },
+  "score": {
+    "key": "score",
+    "pseudo": "Score",
+    "country": "KR",
+    "role": "jun"
+  },
+  "arrow": {
+    "key": "arrow",
+    "pseudo": "Arrow",
+    "country": "KR",
+    "role": "adc"
+  },
+  "piccaboo": {
+    "key": "piccaboo",
+    "pseudo": "Piccaboo",
+    "country": "KR",
+    "role": "sup"
+  },
+  "fixer": {
+    "key": "fixer",
+    "pseudo": "Fixer",
+    "country": "KR",
+    "role": "sup"
+  },
+  "incarnati0n": {
+    "key": "incarnati0n",
+    "pseudo": "Jensen,Incarnati0n",
+    "country": "DK",
+    "role": "mid"
+  },
+  "hard": {
+    "key": "hard",
+    "pseudo": "Hard",
+    "country": "CA",
+    "role": "jun"
+  },
+  "niels": {
+    "key": "niels",
+    "pseudo": "Zven,Niels",
+    "country": "DK",
+    "role": "adc"
+  },
+  "warl0ck": {
+    "key": "warl0ck",
+    "pseudo": "WarL0cK",
+    "country": "TH",
+    "role": "top"
+  },
+  "007x": {
+    "key": "007x",
+    "pseudo": "007x",
+    "country": "TH",
+    "role": "jun"
+  },
+  "g4": {
+    "key": "g4",
+    "pseudo": "G4",
+    "country": "TH",
+    "role": "mid"
+  },
+  "lloyd": {
+    "key": "lloyd",
+    "pseudo": "Lloyd",
+    "country": "TH",
+    "role": "adc"
+  },
+  "moss": {
+    "key": "moss",
+    "pseudo": "Moss",
+    "country": "TH",
+    "role": "sup"
+  },
+  "qaizer": {
+    "key": "qaizer",
+    "pseudo": "QaiZer",
+    "country": "TH",
+    "role": "top"
+  },
+  "mylon": {
+    "key": "mylon",
+    "pseudo": "Mylon",
+    "country": "BR",
+    "role": "top"
+  },
+  "sirt": {
+    "key": "sirt",
+    "pseudo": "SirT",
+    "country": "BR",
+    "role": "jun"
+  },
+  "kami": {
+    "key": "kami",
+    "pseudo": "Kami",
+    "country": "BR",
+    "role": "mid"
+  },
+  "brtt": {
+    "key": "brtt",
+    "pseudo": "brTT",
+    "country": "BR",
+    "role": "adc"
+  },
+  "dioud": {
+    "key": "dioud",
+    "pseudo": "Dioud",
+    "country": "FR",
+    "role": "sup"
+  },
+  "mouse": {
+    "key": "mouse",
+    "pseudo": "Mouse",
+    "country": "CN",
+    "role": "top"
+  },
+  "mmd": {
+    "key": "mmd",
+    "pseudo": "MMD",
+    "country": "TW",
+    "role": "top"
+  },
+  "peanut": {
+    "key": "peanut",
+    "pseudo": "Peanut",
+    "country": "KR",
+    "role": "jun"
+  },
+  "cry": {
+    "key": "cry",
+    "pseudo": "Cry",
+    "country": "KR",
+    "role": "mid"
+  },
+  "hauntzer": {
+    "key": "hauntzer",
+    "pseudo": "Hauntzer",
+    "country": "US",
+    "role": "top"
+  },
+  "biofrost": {
+    "key": "biofrost",
+    "pseudo": "Biofrost",
+    "country": "CN",
+    "role": "sup"
+  },
+  "stixxay": {
+    "key": "stixxay",
+    "pseudo": "Stixxay",
+    "country": "US",
+    "role": "adc"
+  },
+  "expect": {
+    "key": "expect",
+    "pseudo": "Expect",
+    "country": "KR",
+    "role": "top"
+  },
+  "trick": {
+    "key": "trick",
+    "pseudo": "Trick",
+    "country": "KR",
+    "role": "jun"
+  },
+  "perkz": {
+    "key": "perkz",
+    "pseudo": "PerkZ",
+    "country": "HR",
+    "role": "mid"
+  },
+  "unlimited": {
+    "key": "unlimited",
+    "pseudo": "Unlimited",
+    "country": "BG",
+    "role": "sup"
+  },
+  "jankos": {
+    "key": "jankos",
+    "pseudo": "Jankos",
+    "country": "PL",
+    "role": "jun"
+  },
+  "forg1ven": {
+    "key": "forg1ven",
+    "pseudo": "FORG1VEN",
+    "country": "GR",
+    "role": "adc"
+  },
+  "vander": {
+    "key": "vander",
+    "pseudo": "Vander",
+    "country": "PL",
+    "role": "sup"
+  },
+  "freeze": {
+    "key": "freeze",
+    "pseudo": "Freeze",
+    "country": "CZ",
+    "role": "adc"
+  },
+  "avoidless": {
+    "key": "avoidless",
+    "pseudo": "Avoidless",
+    "country": "HK",
+    "role": "jun"
+  },
+  "athena": {
+    "key": "athena",
+    "pseudo": "Athena",
+    "country": "KR",
+    "role": "mid"
+  },
+  "jinjiao": {
+    "key": "jinjiao",
+    "pseudo": "Jinjiao",
+    "country": "CN",
+    "role": "adc"
+  },
+  "road": {
+    "key": "road",
+    "pseudo": "Road",
+    "country": "KR",
+    "role": "sup"
+  },
+  "baeme": {
+    "key": "baeme",
+    "pseudo": "BaeMe",
+    "country": "KR",
+    "role": "mid"
+  },
+  "mlxg": {
+    "key": "mlxg",
+    "pseudo": "Mlxg",
+    "country": "CN",
+    "role": "jun"
+  },
+  "xiaohu": {
+    "key": "xiaohu",
+    "pseudo": "xiaohu",
+    "country": "CN",
+    "role": "mid"
+  },
+  "wuxx": {
+    "key": "wuxx",
+    "pseudo": "wuxx",
+    "country": "CN",
+    "role": "adc"
+  },
+  "cuvee": {
+    "key": "cuvee",
+    "pseudo": "CuVee",
+    "country": "KR",
+    "role": "top"
+  },
+  "ambition": {
+    "key": "ambition",
+    "pseudo": "Ambition",
+    "country": "KR",
+    "role": "jun"
+  },
+  "crown": {
+    "key": "crown",
+    "pseudo": "Crown",
+    "country": "KR",
+    "role": "mid"
+  },
+  "ruler": {
+    "key": "ruler",
+    "pseudo": "Ruler",
+    "country": "KR",
+    "role": "adc"
+  },
+  "corejj": {
+    "key": "corejj",
+    "pseudo": "CoreJJ",
+    "country": "KR",
+    "role": "sup"
+  },
+  "wraith": {
+    "key": "wraith",
+    "pseudo": "Wraith",
+    "country": "KR",
+    "role": "sup"
+  },
+  "duke": {
+    "key": "duke",
+    "pseudo": "Duke",
+    "country": "KR",
+    "role": "top"
+  },
+  "blank": {
+    "key": "blank",
+    "pseudo": "Blank",
+    "country": "KR",
+    "role": "jun"
+  },
+  "smurf": {
+    "key": "smurf",
+    "pseudo": "Smurf",
+    "country": "RU",
+    "role": "top"
+  },
+  "pvpstejos": {
+    "key": "pvpstejos",
+    "pseudo": "PvPStejos",
+    "country": "UA",
+    "role": "jun"
+  },
+  "kira": {
+    "key": "kira",
+    "pseudo": "Kira",
+    "country": "UA",
+    "role": "mid"
+  },
+  "amiracle": {
+    "key": "amiracle",
+    "pseudo": "aMiracle",
+    "country": "UA",
+    "role": "adc"
+  },
+  "likkrit": {
+    "key": "likkrit",
+    "pseudo": "Likkrit",
+    "country": "RU",
+    "role": "sup"
+  },
+  "smoothie": {
+    "key": "smoothie",
+    "pseudo": "Smoothie",
+    "country": "CA",
+    "role": "sup"
+  },
+  "thinkcard": {
+    "key": "thinkcard",
+    "pseudo": "Thinkcard",
+    "country": "US",
+    "role": "jun"
+  },
+  "yang": {
+    "key": "yang",
+    "pseudo": "Yang",
+    "country": "BR",
+    "role": "top"
+  },
+  "revolta": {
+    "key": "revolta",
+    "pseudo": "Revolta",
+    "country": "BR",
+    "role": "jun"
+  },
+  "tockers": {
+    "key": "tockers",
+    "pseudo": "tockers",
+    "country": "BR",
+    "role": "mid"
+  },
+  "micao": {
+    "key": "micao",
+    "pseudo": "micaO",
+    "country": "BR",
+    "role": "adc"
+  },
+  "jockster": {
+    "key": "jockster",
+    "pseudo": "jockster",
+    "country": "BR",
+    "role": "sup"
+  },
+  "wunder": {
+    "key": "wunder",
+    "pseudo": "Wunder",
+    "country": "DK",
+    "role": "top"
+  },
+  "trashy": {
+    "key": "trashy",
+    "pseudo": "Trashy",
+    "country": "DK",
+    "role": "jun"
+  },
+  "sencux": {
+    "key": "sencux",
+    "pseudo": "Sencux",
+    "country": "DK",
+    "role": "mid"
+  },
+  "kobbe": {
+    "key": "kobbe",
+    "pseudo": "Kobbe",
+    "country": "DK",
+    "role": "adc"
+  },
+  "mikyx": {
+    "key": "mikyx",
+    "pseudo": "Mikyx",
+    "country": "SI",
+    "role": "sup"
+  }
+}

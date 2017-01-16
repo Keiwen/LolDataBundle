@@ -1,0 +1,412 @@
+{
+  "againstallauthority2011": {
+    "team": "againstallauthority",
+    "season": "2011",
+    "roster": ["soaz","linak","moma","yellowstar","kujaa"]
+  },
+  "counterlogicgaming2011": {
+    "team": "counterlogicgaming",
+    "season": "2011",
+    "roster": ["hotshotgg","saintvicious","bigfatlp","chauster","elementz"]
+  },
+  "epikgamer2011": {
+    "team": "epikgamer",
+    "season": "2011",
+    "roster": ["westrice","dandinh","salce","dyrus","doublelift"]
+  },
+  "fnatic2011": {
+    "team": "fnatic",
+    "season": "2011",
+    "roster": ["xpeke","cyanide","shushei","lamia","mellisan","wewillfailer"]
+  },
+  "teamgamedde2011": {
+    "team": "teamgamedde",
+    "season": "2011",
+    "roster": ["kev1n","zylor","reyk","candypanda","nyph"]
+  },
+  "teampacific2011": {
+    "team": "teampacific",
+    "season": "2011",
+    "roster": ["vy","dabe","wormy","iddo","gibo"]
+  },
+  "teamsolomid2011": {
+    "team": "teamsolomid",
+    "season": "2011",
+    "roster": ["therainman","theoddone","reginald","chaox","xpecial"]
+  },
+  "xan2011": {
+    "team": "xan",
+    "season": "2011",
+    "roster": ["vech","radeon6870","axion","d4rkness","intrigued"]
+  },
+  "teamsolomid2012": {
+    "team": "teamsolomid",
+    "season": "2012",
+    "roster": ["dyrus","theoddone","reginald","chaox","xpecial"]
+  },
+  "counterlogicgaming2012": {
+    "team": "counterlogicgaming",
+    "season": "2012",
+    "roster": ["voyboy","hotshotgg","bigfatlp","doublelift","chauster"]
+  },
+  "teamdignitas2012": {
+    "team": "teamdignitas",
+    "season": "2012",
+    "roster": ["crumbzz","iwilldominate","scarra","imaqtpie","patoy"]
+  },
+  "moscowfive2012": {
+    "team": "mosocwfive",
+    "season": "2012",
+    "roster": ["darien","diamondprox","alexich","genja","gosupepper"]
+  },
+  "skgaming2012": {
+    "team": "skgaming",
+    "season": "2012",
+    "roster": ["kev1n","araneae","ocelote","yellowstar","nyph"]
+  },
+  "counterlogicgamingeu2012": {
+    "team": "counterlogicgamingeu",
+    "season": "2012",
+    "roster": ["wickd","snoopeh","froggen","yellowpete","krepo"]
+  },
+  "taipeiassassins2012": {
+    "team": "taipeiassassins",
+    "season": "2012",
+    "roster": ["stanley","lilballz","toyz","bebe","mistake"]
+  },
+  "azubufrost2012": {
+    "team": "azubufrost",
+    "season": "2012",
+    "roster": ["shy","cloudtemplar","rapidstar","woong","madlife"]
+  },
+  "najinsword2012": {
+    "team": "najinsword",
+    "season": "2012",
+    "roster": ["maknoon","watch","ssong","pray","cain"]
+  },
+  "teamwe2012": {
+    "team": "teamwe",
+    "season": "2012",
+    "roster": ["caomei","clearlove","misaya","weixiao","fzzf"]
+  },
+  "invictusgaming2012": {
+    "team": "invictusgaming",
+    "season": "2012",
+    "roster": ["pdd","illusion","zzitai","kid","xiaoxiao"]
+  },
+  "saigonjokers2012": {
+    "team": "saigonjokers",
+    "season": "2012",
+    "roster": ["qtv","violet","nixwater","archie","junie"]
+  },
+  "gamaniabears2013": {
+    "team": "gamaniabears",
+    "season": "2013",
+    "roster": ["steak","winds","maple","nl","swordart"]
+  },
+  "najinblacksword2013": {
+    "team": "najinblacksword",
+    "season": "2013",
+    "roster": ["expession","watch","nagne","pray","cain"]
+  },
+  "royalclub2013": {
+    "team": "royalclub",
+    "season": "2013",
+    "roster": ["godlike","lucky","wh1t3zz","uzi","tabe"]
+  },
+  "cloud92013": {
+    "team": "cloud9",
+    "season": "2013",
+    "roster": ["balls","meteos","hai","sneaky","lemonnation"]
+  },
+  "mineski2013": {
+    "team": "mineski",
+    "season": "2013",
+    "roster": ["snoy","kaigu","yume","exo","tgee"]
+  },
+  "teamsolomid2013": {
+    "team": "teamsolomid",
+    "season": "2013",
+    "roster": ["dyrus","theoddone","reginald","wildturtle","xpecial"]
+  },
+  "teamvulcun2013": {
+    "team": "teamvulcun",
+    "season": "2013",
+    "roster": ["sychosid","xmithie","mancloud","zuna","bloodwater"]
+  },
+  "gaminggeareu2013": {
+    "team": "gaminggeareu",
+    "season": "2013",
+    "roster": ["nbs","alunir","mazzerin","deadlybrother","inspirro"]
+  },
+  "samsungozone2013": {
+    "team": "samsungozone",
+    "season": "2013",
+    "roster": ["looper","dandy","dade","imp","mata"]
+  },
+  "sktelecomt12013": {
+    "team": "sktelecomt1",
+    "season": "2013",
+    "roster": ["impact","bengi","faker","piglet","poohmandu"]
+  },
+  "fnatic2013": {
+    "team": "fnatic",
+    "season": "2013",
+    "roster": ["soaz","cyanide","xpeke","puszu","yellowstar"]
+  },
+  "lemondogs2013": {
+    "team": "lemondogs",
+    "season": "2013",
+    "roster": ["zorozero","dexter1","nukeduck","tabzz","mithy"]
+  },
+  "gambitgaming2013": {
+    "team": "gambitgaming",
+    "season": "2013",
+    "roster": ["darien","diamondprox","alexich","genja","voidle"]
+  },
+  "omg2013": {
+    "team": "omg",
+    "season": "2013",
+    "roster": ["gogoing","lovelin","cool","san","bigpomelo"]
+  },
+  "teamsolomid2014": {
+    "team": "teamsolomid",
+    "season": "2014",
+    "roster": ["dyrus","amazing","bjergsen","wildturtle","lustboy","theoddone"]
+  },
+  "alliance2014": {
+    "team": "alliance",
+    "season": "2014",
+    "roster": ["wickd","shook","froggen","tabzz","nyph","kazmitch"]
+  },
+  "edwardgaming2014": {
+    "team": "edwardgaming",
+    "season": "2014",
+    "roster": ["koro1","clearlove","u","namei","fzzf","fireloli"]
+  },
+  "samsungblue2014": {
+    "team": "samsungblue",
+    "season": "2014",
+    "roster": ["acorn","spirit","dade","deft","heart","gamsu"]
+  },
+  "cloud92014": {
+    "team": "cloud9",
+    "season": "2014",
+    "roster": ["balls","meteos","hai","sneaky","lemonnation","dandinh"]
+  },
+  "fnatic2014": {
+    "team": "fnatic",
+    "season": "2014",
+    "roster": ["soaz","cyanide","xpeke","rekkles","yellowstar","araneae"]
+  },
+  "starhornroyalclub2014": {
+    "team": "starhornroyalclub",
+    "season": "2014",
+    "roster": ["cola","insec","corn","uzi","zero","laopi"]
+  },
+  "omg2014": {
+    "team": "omg",
+    "season": "2014",
+    "roster": ["gogoing","lovelin","cool","san","cloud","dada7"]
+  },
+  "samsungwhite2014": {
+    "team": "samsungwhite",
+    "season": "2014",
+    "roster": ["looper","dandy","pawn","imp","mata","skatch"]
+  },
+  "najinwhitesword2014": {
+    "team": "najinwhitesword",
+    "season": "2014",
+    "roster": ["save","watch","ggoong","zefa","gorilla","pure"]
+  },
+  "taipeiassassins2014": {
+    "team": "taipeiassassins",
+    "season": "2014",
+    "roster": ["achie","winds","morning","bebe","jay","chawy"]
+  },
+  "ahqesportsclub2014": {
+    "team": "ahqesportsclub",
+    "season": "2014",
+    "roster": ["prydz","naz","westdoor","garnetdevil","greentea"]
+  },
+  "lmq2014": {
+    "team": "lmq",
+    "season": "2014",
+    "roster": ["ackerman","noname","xiaoweixiao","vasilii","mor"]
+  },
+  "skgaming2014": {
+    "team": "skgaming",
+    "season": "2014",
+    "roster": ["fredy122","svenskeren","jesiz","candypanda","nrated","gilius"]
+  },
+  "darkpassage2014": {
+    "team": "darkpassage",
+    "season": "2014",
+    "roster": ["fabulous","crystalmeth","naru","holyphoenix","touch","holythoth"]
+  },
+  "kabum2014": {
+    "team": "kabum",
+    "season": "2014",
+    "roster": ["lep","danagorn","tinowns","minerva","dans","bit1"]
+  },
+  "counterlogicgaming2015": {
+    "team": "counterlogicgaming",
+    "season": "2015",
+    "roster": ["zionspartan","xmithie","pobelter","doublelift","aphromoo","huhi"]
+  },
+  "fnatic2015": {
+    "team": "fnatic",
+    "season": "2015",
+    "roster": ["huni","reignover","febiven","rekkles","yellowstar","shlaya"]
+  },
+  "lgdgaming2015": {
+    "team": "lgdgaming",
+    "season": "2015",
+    "roster": ["acorn","tbq","godv","imp","pyl","flame","xiaoxi"]
+  },
+  "sktelecomt12015": {
+    "team": "sktelecomt1",
+    "season": "2015",
+    "roster": ["marin","bengi","faker","bang","wolf","easyhoon"]
+  },
+  "teamsolomid2015": {
+    "team": "teamsolomid",
+    "season": "2015",
+    "roster": ["dyrus","santorin","bjergsen","wildturtle","lustboy","reginald"]
+  },
+  "h2kgaming2015": {
+    "team": "h2kgaming",
+    "season": "2015",
+    "roster": ["odoamne","loulex","ryu","hjarnan","kasing","betongjocke"]
+  },
+  "edwardgaming2015": {
+    "team": "edwardgaming",
+    "season": "2015",
+    "roster": ["amazingj","clearlove","pawn","deft","meiko","koro1","fireloli"]
+  },
+  "kootigers2015": {
+    "team": "kootigers",
+    "season": "2015",
+    "roster": ["smeb","hojin","kuro","pray","gorilla","wisdom"]
+  },
+  "ahqesportsclub2015": {
+    "team": "ahqesportsclub",
+    "season": "2015",
+    "roster": ["ziv","mountain","westdoor","an","albis","greentea"]
+  },
+  "flashwolves2015": {
+    "team": "flashwolves",
+    "season": "2015",
+    "roster": ["steak","karsa","maple","nl","swordart","kkramer"]
+  },
+  "invictusgaming2015": {
+    "team": "invictusgaming",
+    "season": "2015",
+    "roster": ["zzitai","kakao","rookie","kid","kitties","time"]
+  },
+  "ktrolster2015": {
+    "team": "ktrolster",
+    "season": "2015",
+    "roster": ["ssumday","score","nagne","arrow","piccaboo","fixer"]
+  },
+  "cloud92015": {
+    "team": "cloud9",
+    "season": "2015",
+    "roster": ["balls","hai","incarnati0n","sneaky","lemonnation","hard"]
+  },
+  "origen2015": {
+    "team": "origen",
+    "season": "2015",
+    "roster": ["soaz","amazing","xpeke","niels","mithy","araneae"]
+  },
+  "bangkoktitans2015": {
+    "team": "bangkoktitans",
+    "season": "2015",
+    "roster": ["warl0ck","007x","g4","lloyd","moss","qaizer"]
+  },
+  "paingaming2015": {
+    "team": "paingaming",
+    "season": "2015",
+    "roster": ["mylon","sirt","kami","brtt","dioud"]
+  },
+  "edwardgaming2016": {
+    "team": "edwardgaming",
+    "season": "2016",
+    "roster": ["mouse","clearlove","scout","deft","meiko","pawn"]
+  },
+  "flashwolves2016": {
+    "team": "flashwolves",
+    "season": "2016",
+    "roster": ["mmd","karsa","maple","nl","swordart","steak"]
+  },
+  "roxtigers2016": {
+    "team": "roxtigers",
+    "season": "2016",
+    "roster": ["smeb","peanut","kuro","pray","gorilla","cry"]
+  },
+  "teamsolomid2016": {
+    "team": "teamsolomid",
+    "season": "2016",
+    "roster": ["hauntzer","svenskeren","bjergsen","doublelift","biofrost","reginald"]
+  },
+  "ahqesportsclub2016": {
+    "team": "ahqesportsclub",
+    "season": "2016",
+    "roster": ["ziv","mountain","westdoor","an","albis","chawy"]
+  },
+  "counterlogicgaming2016": {
+    "team": "counterlogicgaming",
+    "season": "2016",
+    "roster": ["zionspartan","xmithie","huhi","stixxay","aphromoo"]
+  },
+  "g2esports2016": {
+    "team": "g2esports",
+    "season": "2016",
+    "roster": ["expect","trick","perkz","niels","mithy","unlimited"]
+  },
+  "h2kgaming2016": {
+    "team": "h2kgaming",
+    "season": "2016",
+    "roster": ["odoamne","jankos","ryu","forg1ven","vander","freeze"]
+  },
+  "imay2016": {
+    "team": "imay",
+    "season": "2016",
+    "roster": ["amazingj","avoidless","athena","jinjiao","road","baeme"]
+  },
+  "royalnevergiveup2016": {
+    "team": "royalnevergiveup",
+    "season": "2016",
+    "roster": ["looper","mlxg","xiaohu","uzi","mata","wuxx"]
+  },
+  "samsunggalaxy2016": {
+    "team": "samsunggalaxy",
+    "season": "2016",
+    "roster": ["cuvee","ambition","crown","ruler","corejj","wraith"]
+  },
+  "sktelecomt12016": {
+    "team": "sktelecomt1",
+    "season": "2016",
+    "roster": ["duke","blank","faker","bang","wolf","bengi"]
+  },
+  "albusnoxluna2016": {
+    "team": "albusnoxluna",
+    "season": "2016",
+    "roster": ["smurf","pvpstejos","kira","amiracle","likkrit"]
+  },
+  "cloud92016": {
+    "team": "cloud9",
+    "season": "2016",
+    "roster": ["impact","meteos","incarnati0n","sneaky","smoothie","thinkcard"]
+  },
+  "intzesports2016": {
+    "team": "intzesports",
+    "season": "2016",
+    "roster": ["yang","revolta","tockers","micao","jockster"]
+  },
+  "splyce2016": {
+    "team": "splyce",
+    "season": "2016",
+    "roster": ["wunder","trashy","sencux","kobbe","mikyx"]
+  }
+}
