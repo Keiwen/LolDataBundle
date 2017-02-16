@@ -69,7 +69,7 @@ abstract class AbstractExternalDataService
      */
     protected function getServiceKey()
     {
-        return $this->getUrl();
+        return rawurlencode($this->getUrl());
     }
 
 
@@ -79,7 +79,7 @@ abstract class AbstractExternalDataService
     public function getContent()
     {
         $content = $this->readInCache($this->getServiceKey());
-        if($content === null || true) {
+        if($content === null) {
             $rawContent = $this->query();
             try {
                 $content = $this->parseRawContent($rawContent);
