@@ -14,7 +14,7 @@
     "php": ">=7.0",
     "symfony/symfony": ">=3.0",
 
-    "keiwen/riotapibundle": ">=1.0"
+    "keiwen/riotapi": ">=1.0"
   }
 
 }
