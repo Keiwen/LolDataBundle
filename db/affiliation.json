@@ -27,6 +27,11 @@
       "name": "Freljord",
       "icon": ""
     },
+    "independent": {
+      "id": "independent",
+      "name": "Independent",
+      "icon": ""
+    },
     "ionia": {
       "id": "ionia",
       "name": "Ionia",
