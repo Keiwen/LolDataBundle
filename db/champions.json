@@ -3,479 +3,807 @@
 
   "champions": {
     "aatrox": {
-      "key": "Aatrox",
+      "key": "aatrox",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "0gvBGmwhOLU"
     },
     "ahri": {
-      "key": "Ahri",
+      "key": "ahri",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "hlalkAUkwqE"
     },
     "akali": {
-      "key": "Akali",
+      "key": "akali",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "w8UjQ_hYfh4"
     },
+    "alistar": {
+      "key": "alistar",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
+      "spotlight_youtube": ""
+    },
+    "amumu": {
+      "key": "amumu",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
+      "spotlight_youtube": ""
+    },
     "anivia": {
-      "key": "Anivia",
+      "key": "anivia",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "8Syose1O568"
     },
+    "annie": {
+      "key": "annie",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
+      "spotlight_youtube": ""
+    },
     "ashe": {
-      "key": "Ashe",
+      "key": "ashe",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "mSbMQ5xDnEg"
     },
     "aurelionsol": {
-      "key": "AurelionSol",
+      "key": "aurelionsol",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "HM520graePQ"
     },
     "azir": {
-      "key": "Azir",
+      "key": "azir",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "zqH4AA-KEgQ"
     },
     "bard": {
-      "key": "Bard",
+      "key": "bard",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "-tNDoXIYptk"
     },
     "blitzcrank": {
-      "key": "Blitzcrank",
+      "key": "blitzcrank",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "WtmMC23DdT0"
     },
     "brand": {
-      "key": "Brand",
+      "key": "brand",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "vvuAw6KNn2E"
     },
     "braum": {
-      "key": "Braum",
+      "key": "braum",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "ajUghBnxZQA"
     },
-    "camille": {
-      "key": "Camille",
-      "spotlight_youtube": "YaNANTQH0zc"
-    },
     "caitlyn": {
-      "key": "Caitlyn",
+      "key": "caitlyn",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "KFNFY6-gaDA"
     },
-    "chogath": {
-      "key": "ChoGath",
-      "spotlight_youtube": "GJ8QI_7puvU"
+    "camille": {
+      "key": "camille",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
+      "spotlight_youtube": "YaNANTQH0zc"
     },
     "cassiopeia": {
-      "key": "Cassiopeia",
+      "key": "cassiopeia",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "neQNvEyuhPU"
     },
+    "chogath": {
+      "key": "chogath",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
+      "spotlight_youtube": "GJ8QI_7puvU"
+    },
     "corki": {
-      "key": "Corki",
+      "key": "corki",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "ABYix52iBj0"
     },
     "darius": {
-      "key": "Darius",
+      "key": "darius",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "0M15wr-5O18"
     },
     "diana": {
-      "key": "Diana",
+      "key": "diana",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "H7WSLWcACiw"
     },
+    "drmundo": {
+      "key": "drmundo",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
+      "spotlight_youtube": ""
+    },
     "draven": {
-      "key": "Draven",
+      "key": "draven",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "h5zyGj4Z0Sg"
     },
-    "elise": {
-      "key": "Elise",
-      "spotlight_youtube": "mOz4uDKs2dM"
-    },
     "ekko": {
-      "key": "Ekko",
+      "key": "ekko",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "Cx-9Oi2xstA"
     },
+    "elise": {
+      "key": "elise",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
+      "spotlight_youtube": "mOz4uDKs2dM"
+    },
     "evelynn": {
-      "key": "Evelynn",
+      "key": "evelynn",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "hHuGtuWQoC4"
     },
     "ezreal": {
-      "key": "Ezreal",
+      "key": "ezreal",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "0dGYt0Ibw94"
     },
     "fiddlesticks": {
-      "key": "Fiddlesticks",
+      "key": "fiddlesticks",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "uc_-ms5ADhk"
     },
     "fiora": {
-      "key": "Fiora",
+      "key": "fiora",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "YRyGvsGbHnM"
     },
     "fizz": {
-      "key": "Fizz",
+      "key": "fizz",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "ATbmKP9RoXI"
     },
     "galio": {
-      "key": "Galio",
+      "key": "galio",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "sOQGg1-RzWw"
     },
     "gangplank": {
-      "key": "Gangplank",
+      "key": "gangplank",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "3kysDbC-NTo"
     },
     "garen": {
-      "key": "Garen",
+      "key": "garen",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "Q7oyW6LjxrA"
     },
     "gnar": {
-      "key": "Gnar",
+      "key": "gnar",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "4Qu3rhWGq0s"
     },
+    "gragas": {
+      "key": "gragas",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
+      "spotlight_youtube": ""
+    },
     "graves": {
-      "key": "Graves",
+      "key": "graves",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "BWzyB4xe7Y8"
     },
     "hecarim": {
-      "key": "Hecarim",
+      "key": "hecarim",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "6DVGJm-u6To"
     },
     "heimerdinger": {
-      "key": "Heimerdinger",
+      "key": "heimerdinger",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "PY2q3aA1NYo"
     },
     "illaoi": {
-      "key": "Illaoi",
+      "key": "illaoi",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "UFkCDRlb9FA"
     },
     "irelia": {
-      "key": "Irelia",
+      "key": "irelia",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "MFcsOX9xcIo"
     },
     "ivern": {
-      "key": "Ivern",
+      "key": "ivern",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "Y-gsY5oAsL0"
     },
+    "janna": {
+      "key": "janna",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
+      "spotlight_youtube": ""
+    },
     "jarvaniv": {
-      "key": "JarvanIV",
+      "key": "jarvaniv",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "RgOdf3x24qA"
     },
     "jax": {
-      "key": "Jax",
+      "key": "jax",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "B18qApcVCRg"
     },
     "jayce": {
-      "key": "Jayce",
+      "key": "jayce",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "p2YuyBZ_zMU"
     },
     "jhin": {
-      "key": "Jhin",
+      "key": "jhin",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "QvNw0A-D0T0"
     },
     "jinx": {
-      "key": "Jinx",
+      "key": "jinx",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "KN3OYwP8nHE"
     },
     "kalista": {
-      "key": "Kalista",
+      "key": "kalista",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "XCR-tMpKtt8"
     },
     "karma": {
-      "key": "Karma",
+      "key": "karma",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "lWIj3IRz8DI"
     },
     "karthus": {
-      "key": "Karthus",
+      "key": "karthus",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "zSKw3m7JGvg"
     },
+    "kassadin": {
+      "key": "kassadin",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
+      "spotlight_youtube": ""
+    },
     "katarina": {
-      "key": "Katarina",
+      "key": "katarina",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "soCg5RbgYIA"
     },
     "kayle": {
-      "key": "Kayle",
+      "key": "kayle",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "kn-Y6jawdHM"
     },
     "kennen": {
-      "key": "Kennen",
+      "key": "kennen",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "ZmYVifYPFsY"
     },
     "khazix": {
-      "key": "KhaZix",
+      "key": "khazix",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "jKLK9zFiVII"
     },
     "kindred": {
-      "key": "Kindred",
+      "key": "kindred",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "h0Pwn7G-eLE"
     },
     "kled": {
-      "key": "Kled",
+      "key": "kled",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "Pz145kVa-4w"
     },
     "kogmaw": {
-      "key": "KogMaw",
+      "key": "kogmaw",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "_uZ1ltl-qPM"
     },
     "leblanc": {
-      "key": "leBlanc",
+      "key": "leblanc",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "we5LawDUcCM"
     },
     "leesin": {
-      "key": "LeeSin",
+      "key": "leesin",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "e6SleHuJjLo"
     },
     "leona": {
-      "key": "Leona",
+      "key": "leona",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "oViu5Pv_wwY"
     },
     "lissandra": {
-      "key": "Lissandra",
+      "key": "lissandra",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "xsCp5lBceTA"
     },
     "lucian": {
-      "key": "Lucian",
+      "key": "lucian",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "2rIiuLXXGEg"
     },
     "lulu": {
-      "key": "Lulu",
+      "key": "lulu",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "R1Gs1D2rUIM"
     },
     "lux": {
-      "key": "Lux",
+      "key": "lux",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "pJB6JWDESWU"
     },
+    "malphite": {
+      "key": "malphite",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
+      "spotlight_youtube": ""
+    },
     "malzahar": {
-      "key": "Malzahar",
+      "key": "malzahar",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "PC5ScnEH-Rc"
     },
     "maokai": {
-      "key": "Maokai",
+      "key": "maokai",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "Gw8f-VqAcQo"
     },
     "masteryi": {
-      "key": "MasterYi",
+      "key": "masteryi",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "RJo0YzTyvXw"
     },
     "missfortune": {
-      "key": "MissFortune",
+      "key": "missfortune",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "vZh_hN-62YA"
     },
     "monkeyking": {
-      "key": "MonkeyKing",
+      "key": "monkeyking",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "k1zAhC5aeQs"
     },
+    "mordekaiser": {
+      "key": "mordekaiser",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
+      "spotlight_youtube": ""
+    },
+    "morgana": {
+      "key": "morgana",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
+      "spotlight_youtube": ""
+    },
     "nami": {
-      "key": "Nami",
+      "key": "nami",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "wd_Sz59QTVk"
     },
+    "nasus": {
+      "key": "nasus",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
+      "spotlight_youtube": ""
+    },
     "nautilus": {
-      "key": "Nautilus",
+      "key": "nautilus",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "IyOeyjwZT28"
     },
     "nidalee": {
-      "key": "Nidalee",
+      "key": "nidalee",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "KZjRgm4mF_U"
     },
     "nocturne": {
-      "key": "Nocturne",
+      "key": "nocturne",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "owrwt97AH54"
     },
+    "nunu": {
+      "key": "nunu",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
+      "spotlight_youtube": ""
+    },
     "olaf": {
-      "key": "Olaf",
+      "key": "olaf",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "YuC3ZUY88d8"
     },
     "orianna": {
-      "key": "Orianna",
+      "key": "orianna",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "EUpTRoSQEX4"
     },
     "pantheon": {
-      "key": "Pantheon",
+      "key": "pantheon",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "h2yjpxzTNvs"
     },
     "poppy": {
-      "key": "Poppy",
+      "key": "poppy",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "Oe-NJKTgz7c"
     },
     "quinn": {
-      "key": "Quinn",
+      "key": "quinn",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "O9eVLrcih9s"
     },
     "ramnus": {
-      "key": "Ramnus",
+      "key": "ramnus",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "aeU2b9s-ZVw"
     },
     "reksai": {
-      "key": "RekSai",
+      "key": "reksai",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "bmurGIqiPgg"
     },
-    "rengar": {
-      "key": "Rengar",
-      "spotlight_youtube": "gbHGFazlpCA"
-    },
     "renekton": {
-      "key": "Renekton",
+      "key": "renekton",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "IDXEHgsLfeM"
     },
+    "rengar": {
+      "key": "rengar",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
+      "spotlight_youtube": "gbHGFazlpCA"
+    },
     "riven": {
-      "key": "Riven",
+      "key": "riven",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "V_ERvayBr3M"
     },
-    "ryze": {
-      "key": "Ryze",
-      "spotlight_youtube": "qNk6uNCLuDo"
-    },
     "rumble": {
-      "key": "Rumble",
+      "key": "rumble",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "Dghwqj_Qddc"
     },
-    "shen": {
-      "key": "Shen",
-      "spotlight_youtube": "JIIE0LCvGpo"
-    },
-    "singed": {
-      "key": "Singed",
-      "spotlight_youtube": "ZOpT__qwjdQ"
-    },
-    "shaco": {
-      "key": "Shaco",
-      "spotlight_youtube": "Q9m48jiVWL4"
-    },
-    "shyvana": {
-      "key": "Shyvana",
-      "spotlight_youtube": "Z66n3UYfPE4"
-    },
-    "sivir": {
-      "key": "Sivir",
-      "spotlight_youtube": "6NkXkpHnf30"
+    "ryze": {
+      "key": "ryze",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
+      "spotlight_youtube": "qNk6uNCLuDo"
     },
     "sejuani": {
-      "key": "Sejuani",
+      "key": "sejuani",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "bOWoAktkGQg"
     },
+    "shaco": {
+      "key": "shaco",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
+      "spotlight_youtube": "Q9m48jiVWL4"
+    },
+    "shen": {
+      "key": "shen",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
+      "spotlight_youtube": "JIIE0LCvGpo"
+    },
+    "shyvana": {
+      "key": "shyvana",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
+      "spotlight_youtube": "Z66n3UYfPE4"
+    },
+    "singed": {
+      "key": "singed",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
+      "spotlight_youtube": "ZOpT__qwjdQ"
+    },
     "sion": {
-      "key": "Sion",
+      "key": "sion",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "4mWWFC9SRfA"
     },
+    "sivir": {
+      "key": "sivir",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
+      "spotlight_youtube": "6NkXkpHnf30"
+    },
     "skarner": {
-      "key": "Skarner",
+      "key": "skarner",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "vLxbEDJykcI"
     },
     "sona": {
-      "key": "Sona",
+      "key": "sona",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "JP0A3wLfFBg"
     },
     "soraka": {
-      "key": "Soraka",
+      "key": "soraka",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "KJ6f1nsoUTs"
     },
     "swain": {
-      "key": "Swain",
+      "key": "swain",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "i19hj3LVP7A"
     },
     "syndra": {
-      "key": "Syndra",
+      "key": "syndra",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "YqI7N2R8tx4"
     },
     "tahmkench": {
-      "key": "TahmKench",
+      "key": "tahmkench",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "VYlOFKLmiHA"
     },
     "taliyah": {
-      "key": "Taliyah",
+      "key": "taliyah",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "3-XQ0Jb2MRs"
     },
     "talon": {
       "key": "talon",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "eKdX7aB3TRk"
     },
     "taric": {
-      "key": "Taric",
+      "key": "taric",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "Y91qo99osLI"
     },
     "teemo": {
-      "key": "Teemo",
+      "key": "teemo",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "Qj48qHM1MXE"
     },
     "thresh": {
-      "key": "Thresh",
+      "key": "thresh",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "Sv95nBi7ulQ"
     },
     "tristana": {
-      "key": "Tristana",
+      "key": "tristana",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "633CHC6TTYY"
     },
     "trundle": {
-      "key": "Trundle",
+      "key": "trundle",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "cg0-Kw9Iozw"
     },
     "tryndamere": {
-      "key": "Tryndamere",
+      "key": "tryndamere",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "VmXEnxyVcs0"
     },
     "twistedfate": {
-      "key": "TwistedFate",
+      "key": "twistedfate",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "B8Ai_Aw-5fc"
     },
     "twitch": {
-      "key": "Twitch",
+      "key": "twitch",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "cFtH_wFJBLs"
     },
     "udyr": {
-      "key": "Udyr",
+      "key": "udyr",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "dK4PwnV59ik"
     },
     "urgot": {
-      "key": "Urgot",
+      "key": "urgot",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "1bQtJZW1x08"
     },
     "varus": {
-      "key": "Varus",
+      "key": "varus",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "twiHstUjNkY"
     },
     "vayne": {
-      "key": "Vayne",
+      "key": "vayne",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "gZDJqpFspmg"
     },
+    "veigar": {
+      "key": "veigar",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
+      "spotlight_youtube": ""
+    },
     "velkoz": {
-      "key": "VelKoz",
+      "key": "velKoz",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "IWA2C8tUG-g"
     },
     "vi": {
-      "key": "Vi",
+      "key": "vi",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "vp3ZrRJz-ZY"
     },
     "viktor": {
-      "key": "Viktor",
+      "key": "viktor",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "cHD781_Je7Q"
     },
     "vladimir": {
-      "key": "Vladimir",
+      "key": "vladimir",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "eiUgrEWRx6M"
     },
     "volibear": {
-      "key": "Volibear",
+      "key": "volibear",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "pVrWNNnhSww"
     },
+    "warwick": {
+      "key": "warwick",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
+      "spotlight_youtube": ""
+    },
     "xerath": {
-      "key": "Xerath",
+      "key": "xerath",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "2v5MmuMJ2qU"
     },
     "xinzhao": {
-      "key": "XinZhao",
+      "key": "xinzhao",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "9l1lj_9Xg-E"
     },
     "yasuo": {
-      "key": "Yasuo",
+      "key": "yasuo",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "fkM20LgOdKQ"
     },
     "yorick": {
-      "key": "Yorick",
+      "key": "yorick",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "RUVveKdiU_U"
     },
     "zac": {
-      "key": "Zac",
+      "key": "zac",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "lr8kHe4vqZQ"
     },
     "zed": {
-      "key": "Zed",
+      "key": "zed",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "2DFtlNGzMIA"
     },
     "ziggs": {
-      "key": "Ziggs",
+      "key": "ziggs",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "kNabvLyUXzI"
     },
+    "zilean": {
+      "key": "zilean",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
+      "spotlight_youtube": ""
+    },
     "zyra": {
-      "key": "Zyra",
+      "key": "zyra",
+      "origin": "runeterra",
+      "affiliation": "runeterra",
       "spotlight_youtube": "v9DLY0Qrcm4"
     }
   }
