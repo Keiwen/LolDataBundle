@@ -27,11 +27,6 @@
       "name": "Freljord",
       "icon": ""
     },
-    "independent": {
-      "id": "independent",
-      "name": "Independent",
-      "icon": ""
-    },
     "ionia": {
       "id": "ionia",
       "name": "Ionia",
@@ -50,6 +45,11 @@
     "piltover": {
       "id": "piltover",
       "name": "Piltover",
+      "icon": ""
+    },
+    "runeterra": {
+      "id": "runeterra",
+      "name": "Runeterra",
       "icon": ""
     },
     "shadowisles": {
